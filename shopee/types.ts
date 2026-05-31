@@ -40,6 +40,12 @@ export type ShopeeLoginOptions = {
    */
   saveSession?: string | false
   /**
+   * Directory to read/write saved sessions when `useSession`/`saveSession`
+   * aren't given an explicit path. Defaults to `shopee/sessions/`. Used for
+   * per-token data isolation (each guest token gets its own session folder).
+   */
+  sessionDir?: string
+  /**
    * Keep the browser open after login instead of closing it, so you can
    * inspect the page or build the next feature. Defaults to true. The call
    * resolves once login finishes but the browser stays alive until you press

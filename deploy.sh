@@ -98,7 +98,11 @@ if [ ! -f cookies.txt ] && [ -z "$(ls -A shopee/sessions 2>/dev/null || true)" ]
 fi
 
 # ---------------------------------------------------------------------------
-# 5. Token akses (WAJIB saat publik — data pesanan berisi PII pembeli)
+# 5. Token ADMIN (WAJIB saat publik — data pesanan berisi PII pembeli)
+#
+#    Token ini = kunci PEMILIK. Dari link admin kamu bisa buka panel
+#    "Kelola Akses (Token)" untuk membuat link per-orang (token tamu) yang
+#    bisa dicabut satu-satu. Token tamu disimpan di .web-tokens.json.
 # ---------------------------------------------------------------------------
 if [ "$HOST" != "127.0.0.1" ] || [ -n "$DOMAIN" ]; then
   if [ -z "${WEB_TOKEN:-}" ]; then
@@ -232,7 +236,10 @@ EOF
   printf '\033[1;32m   🚀 Shopee Scraper siap diakses:\033[0m\n'
   printf '\033[1;32m   %s://%s%s\033[0m\n' "$SCHEME" "$DOMAIN" "$TOKEN_QS"
   printf '\033[1;32m  ============================================================\033[0m\n'
-  [ -n "${WEB_TOKEN:-}" ] && warn "Simpan token ini: ${WEB_TOKEN}"
+  if [ -n "${WEB_TOKEN:-}" ]; then
+    warn "Ini token ADMIN (pemilik) — SIMPAN baik-baik: ${WEB_TOKEN}"
+    say  "Buka link admin di atas → panel 'Kelola Akses (Token)' untuk bikin link per-orang."
+  fi
   exit 0
 fi
 
@@ -259,7 +266,10 @@ if [ "$HOST" = "0.0.0.0" ]; then
   printf '\033[1;32m   http://%s:%s%s\033[0m\n' "$IP" "$PORT" "$TOKEN_QS"
   printf '\033[1;32m  ============================================================\033[0m\n'
   warn "Kalau belum bisa dibuka: cek juga firewall panel provider (port $PORT/tcp)."
-  [ -n "${WEB_TOKEN:-}" ] && warn "Token akses: ${WEB_TOKEN}"
+  if [ -n "${WEB_TOKEN:-}" ]; then
+    warn "Ini token ADMIN (pemilik) — SIMPAN baik-baik: ${WEB_TOKEN}"
+    say  "Buka link admin di atas → panel 'Kelola Akses (Token)' untuk bikin link per-orang."
+  fi
 fi
 
 # ---------------------------------------------------------------------------

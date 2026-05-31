@@ -87,12 +87,13 @@ async function launchAndCheck(
 /** Resolve which saved-session file to try, if any. */
 async function resolveSessionPath(
   useSession: ShopeeLoginOptions['useSession'],
+  sessionDir: string | undefined,
   log: (m: string) => void
 ): Promise<string | undefined> {
   if (useSession === false) return undefined
   if (typeof useSession === 'string') return resolve(useSession)
-  // true / undefined → auto-find newest
-  const latest = await findLatestSession()
+  // true / undefined → auto-find newest (in the per-token dir if given)
+  const latest = sessionDir ? await findLatestSession(resolve(sessionDir)) : await findLatestSession()
   if (latest) log(`[shopee] found saved session: ${latest}`)
   return latest
 }
@@ -136,7 +137,7 @@ export async function establishShopeeSession(
   let authSource: 'session' | 'cookies' | undefined
 
   // 1. Try a saved session first (if one exists / was requested).
-  const sessionFilePath = await resolveSessionPath(options.useSession, log)
+  const sessionFilePath = await resolveSessionPath(options.useSession, options.sessionDir, log)
   if (sessionFilePath) {
     try {
       const saved = await loadSession(sessionFilePath)
@@ -210,7 +211,7 @@ export async function establishShopeeSession(
     const outPath =
       typeof options.saveSession === 'string'
         ? options.saveSession
-        : resolve('shopee', 'sessions', `${slugify(shopName)}.json`)
+        : resolve(options.sessionDir ?? resolve('shopee', 'sessions'), `${slugify(shopName)}.json`)
     try {
       sessionPath = await saveSession(session.context, session.page, outPath, shopName)
       log(`[shopee] 💾 session saved → ${sessionPath}`)

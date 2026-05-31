@@ -10,14 +10,15 @@
  */
 
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http'
-import { readdir, readFile, stat, writeFile, unlink } from 'node:fs/promises'
-import { resolve, join, basename } from 'node:path'
-import { timingSafeEqual } from 'node:crypto'
+import { readdir, readFile, stat, writeFile, unlink, mkdir } from 'node:fs/promises'
+import { resolve, join, basename, dirname } from 'node:path'
+import { timingSafeEqual, createHash } from 'node:crypto'
 
 import { establishShopeeSession } from './login'
 import { scrapeOrders } from './scrape-orders'
 import { scrapeOrdersApi, scrapeOrdersApiDirect } from './scrape-orders-api'
 import { parseCookiesText, filterByDomain, serializeNetscape } from './cookie-parser'
+import { listTokens, createToken, revokeToken, touchToken } from './token-store'
 import type { ShopeeLoginOptions } from './types'
 import type { ScrapeOrdersOptions } from './order-types'
 
@@ -35,6 +36,38 @@ const HOST = process.env.HOST ?? '127.0.0.1'
 // (fine for localhost, NOT for a public VPS).
 const WEB_TOKEN = process.env.WEB_TOKEN ?? ''
 const RESULT_DIR = resolve('result')
+
+/** Default (legacy) session dir — kept for admin/open so existing data stays put. */
+const SESSIONS_DIR = resolve('shopee', 'sessions')
+/** Root folder that holds each guest token's isolated data. */
+const DATA_ROOT = resolve('data')
+
+/**
+ * Per-request data locations. Each guest token gets its OWN folder so multiple
+ * people (e.g. "mimin" and "anisa") don't clobber each other's cookies/results.
+ * Admin & open mode keep using the legacy root paths so current data isn't moved.
+ */
+type DataPaths = { cookiesPath: string; resultDir: string; sessionDir: string }
+
+/** Short, filesystem-safe folder name derived from a token (never the raw token). */
+function tokenSlug(token: string): string {
+  return createHash('sha256').update(token).digest('hex').slice(0, 16)
+}
+
+/** Resolve the cookies/result/session paths for a given auth context. */
+function dataPathsFor(auth: { role: string; token: string }): DataPaths {
+  // Admin / open → legacy single-tenant layout at the repo root.
+  if (auth.role === 'admin' || auth.role === 'open' || !auth.token) {
+    return { cookiesPath: COOKIES_PATH, resultDir: RESULT_DIR, sessionDir: SESSIONS_DIR }
+  }
+  // Guest → isolated folder under data/<slug>/.
+  const dir = join(DATA_ROOT, tokenSlug(auth.token))
+  return {
+    cookiesPath: join(dir, 'cookies.txt'),
+    resultDir: join(dir, 'result'),
+    sessionDir: join(dir, 'sessions'),
+  }
+}
 
 /** Constant-time string compare (avoids token timing leaks). */
 function safeEqual(a: string, b: string): boolean {
@@ -56,32 +89,73 @@ function getCookie(req: IncomingMessage, name: string): string | undefined {
   return undefined
 }
 
-/** Is this request authorized? (Always true when no WEB_TOKEN is configured.) */
-function isAuthed(req: IncomingMessage, url: URL): boolean {
-  if (!WEB_TOKEN) return true
-  const q = url.searchParams.get('token')
-  if (q && safeEqual(q, WEB_TOKEN)) return true
-  const c = getCookie(req, 'sid')
-  return !!c && safeEqual(c, WEB_TOKEN)
+/**
+ * Resolve who is making the request, based on the `?token=` query (first load)
+ * or the `sid` cookie (subsequent loads).
+ *
+ *   role 'open'  → no WEB_TOKEN set, UI is unprotected (localhost dev)
+ *   role 'admin' → matched the owner token (env WEB_TOKEN) — can manage tokens
+ *   role 'guest' → matched a stored guest token — normal access, no admin panel
+ *   role 'none'  → no/invalid token — blocked
+ *
+ * Returns the matched token string too, so the caller can pin it in a cookie.
+ */
+async function resolveAuth(
+  req: IncomingMessage,
+  url: URL
+): Promise<{ role: 'open' | 'admin' | 'guest' | 'none'; token: string }> {
+  if (!WEB_TOKEN) return { role: 'open', token: '' }
+  const presented = url.searchParams.get('token') || getCookie(req, 'sid') || ''
+  if (!presented) return { role: 'none', token: '' }
+  if (presented.length === WEB_TOKEN.length && safeEqual(presented, WEB_TOKEN)) {
+    return { role: 'admin', token: presented }
+  }
+  // Guest tokens: compare against each stored token (constant-time per entry).
+  for (const t of await listTokens()) {
+    if (t.token.length === presented.length && safeEqual(t.token, presented)) {
+      void touchToken(t.token)
+      return { role: 'guest', token: presented }
+    }
+  }
+  return { role: 'none', token: '' }
 }
 
-/** Only one scrape may run at a time. */
-let running = false
+/**
+ * A "channel" groups one tenant's live log + scrape lock. Admin/open share the
+ * 'admin' channel; each guest token gets its own (keyed by token slug) so their
+ * logs and "is a scrape running?" state never leak into each other.
+ */
+function channelFor(auth: { role: string; token: string }): string {
+  if (auth.role === 'admin' || auth.role === 'open' || !auth.token) return 'admin'
+  return tokenSlug(auth.token)
+}
 
-/** Connected SSE clients (browsers watching the live log). */
-const sseClients = new Set<ServerResponse>()
+/** Channels with a scrape currently in flight (only one per tenant at a time). */
+const runningChannels = new Set<string>()
 
-/** Push a log line to every connected browser AND the terminal. */
-function broadcast(line: string): void {
-  console.log(line)
+/** Connected SSE clients per channel (browsers watching that tenant's log). */
+const sseByChannel = new Map<string, Set<ServerResponse>>()
+
+function clientsFor(channel: string): Set<ServerResponse> {
+  let set = sseByChannel.get(channel)
+  if (!set) {
+    set = new Set<ServerResponse>()
+    sseByChannel.set(channel, set)
+  }
+  return set
+}
+
+/** Push a log line to a channel's browsers AND the terminal. */
+function broadcast(channel: string, line: string): void {
+  console.log(`[${channel}] ${line}`)
   const payload = `data: ${JSON.stringify(line)}\n\n`
-  for (const res of sseClients) res.write(payload)
+  for (const res of clientsFor(channel)) res.write(payload)
 }
 
-/** Push a typed event (e.g. status changes) to every browser. */
-function broadcastEvent(event: string, data: unknown): void {
+/** Push a typed event (e.g. status changes) to a channel's browsers. */
+function broadcastEvent(channel: string, event: string, data: unknown): void {
   const payload = `event: ${event}\ndata: ${JSON.stringify(data)}\n\n`
-  for (const res of sseClients) res.write(payload)
+  for (const res of clientsFor(channel)) res.write(payload)
 }
 
 // ---------------------------------------------------------------------------
@@ -99,26 +173,41 @@ type ScrapeBody = {
   mode?: 'api' | 'browser'
 }
 
-async function runScrape(body: ScrapeBody): Promise<void> {
-  if (running) {
-    broadcast('[web] ⚠️  sebuah proses scrape sedang berjalan — tunggu sampai selesai')
+async function runScrape(body: ScrapeBody, auth: { role: string; token: string }): Promise<void> {
+  const channel = channelFor(auth)
+  const paths = dataPathsFor(auth)
+  const log = (line: string) => broadcast(channel, line)
+
+  if (runningChannels.has(channel)) {
+    log('[web] ⚠️  sebuah proses scrape sedang berjalan — tunggu sampai selesai')
     return
   }
-  running = true
-  broadcastEvent('status', { running: true })
+  runningChannels.add(channel)
+  broadcastEvent(channel, 'status', { running: true })
+
+  // Make sure this tenant's folders exist before anything writes into them.
+  await mkdir(paths.resultDir, { recursive: true }).catch(() => {})
+  await mkdir(paths.sessionDir, { recursive: true }).catch(() => {})
 
   const mode: 'api' | 'browser' = body.mode === 'browser' ? 'browser' : 'api'
-  const login: ShopeeLoginOptions = { headless: !body.show, log: broadcast }
+  const login: ShopeeLoginOptions = {
+    headless: !body.show,
+    log,
+    cookiesPath: paths.cookiesPath,
+    sessionDir: paths.sessionDir,
+  }
   const scrape: ScrapeOrdersOptions = {
     orderType: body.type || 'completed',
     limit: Number(body.limit) || 0,
     maxPages: Number(body.maxPages) || 0,
     concurrency: Number(body.concurrency) || (mode === 'api' ? 8 : 4),
     blockResources: body.blockResources !== false,
-    log: broadcast,
+    log,
+    outDir: paths.resultDir,
+    sessionDir: paths.sessionDir,
   }
 
-  broadcast(
+  log(
     `[web] ▶️  mulai scrape (${mode === 'api' ? 'API cepat' : 'browser'}) — type=${scrape.orderType} halaman=${scrape.maxPages || 'all'} limit=${scrape.limit || 'all'} concurrency=${scrape.concurrency} ${
       body.show ? '(window terlihat)' : '(headless)'
     }`
@@ -132,35 +221,35 @@ async function runScrape(body: ScrapeBody): Promise<void> {
     if (mode === 'api' && !body.show) {
       try {
         const result = await scrapeOrdersApiDirect(scrape)
-        broadcast(`[web] ✅ selesai — ${result.details.length} pesanan tersimpan`)
-        broadcastEvent('done', { scraped: result.details.length })
+        log(`[web] ✅ selesai — ${result.details.length} pesanan tersimpan`)
+        broadcastEvent(channel, 'done', { scraped: result.details.length })
         return
       } catch (e) {
         const authFailed = (e as { authFailed?: boolean }).authFailed
         const noSession = e instanceof Error && /no saved session/.test(e.message)
         if (!authFailed && !noSession) throw e
-        broadcast('[web] ⚠️  sesi tersimpan kedaluwarsa — login ulang via browser...')
+        log('[web] ⚠️  sesi tersimpan kedaluwarsa — login ulang via browser...')
       }
     }
 
     const established = await establishShopeeSession(login)
     session = established.session
     if (!established.result.success) {
-      broadcast('[web] ❌ gagal login — cookies/session ditolak. Export ulang cookies lalu coba lagi.')
+      log('[web] ❌ gagal login — cookies/session ditolak. Export ulang cookies lalu coba lagi.')
       return
     }
     const result =
       mode === 'api'
         ? await scrapeOrdersApi(session.page, scrape)
         : await scrapeOrders(session.page, scrape)
-    broadcast(`[web] ✅ selesai — ${result.details.length} pesanan tersimpan`)
-    broadcastEvent('done', { scraped: result.details.length })
+    log(`[web] ✅ selesai — ${result.details.length} pesanan tersimpan`)
+    broadcastEvent(channel, 'done', { scraped: result.details.length })
   } catch (e) {
-    broadcast(`[web] 💥 error: ${e instanceof Error ? e.message : String(e)}`)
+    log(`[web] 💥 error: ${e instanceof Error ? e.message : String(e)}`)
   } finally {
     if (session) await session.close().catch(() => {})
-    running = false
-    broadcastEvent('status', { running: false })
+    runningChannels.delete(channel)
+    broadcastEvent(channel, 'status', { running: false })
   }
 }
 
@@ -168,17 +257,17 @@ async function runScrape(body: ScrapeBody): Promise<void> {
 // Result-file helpers
 // ---------------------------------------------------------------------------
 
-async function listResults(): Promise<Array<{ name: string; size: number; mtime: number }>> {
+async function listResults(resultDir: string): Promise<Array<{ name: string; size: number; mtime: number }>> {
   let names: string[] = []
   try {
-    names = await readdir(RESULT_DIR)
+    names = await readdir(resultDir)
   } catch {
     return []
   }
   const files = names.filter((n) => n.endsWith('.json') && !n.startsWith('_index'))
   const out = await Promise.all(
     files.map(async (name) => {
-      const s = await stat(join(RESULT_DIR, name)).catch(() => null)
+      const s = await stat(join(resultDir, name)).catch(() => null)
       return { name, size: s?.size ?? 0, mtime: s?.mtimeMs ?? 0 }
     })
   )
@@ -186,11 +275,11 @@ async function listResults(): Promise<Array<{ name: string; size: number; mtime:
 }
 
 /** Read one result file safely (no path traversal). */
-async function readResult(name: string): Promise<string | null> {
+async function readResult(resultDir: string, name: string): Promise<string | null> {
   const safe = basename(name)
   if (!safe.endsWith('.json')) return null
   try {
-    return await readFile(join(RESULT_DIR, safe), 'utf8')
+    return await readFile(join(resultDir, safe), 'utf8')
   } catch {
     return null
   }
@@ -201,12 +290,12 @@ async function readResult(name: string): Promise<string | null> {
  * (including `_index*` files). With a `name`, deletes just that one file.
  * Returns the number of files removed.
  */
-async function clearResults(name?: string): Promise<number> {
+async function clearResults(resultDir: string, name?: string): Promise<number> {
   if (name) {
     const safe = basename(name)
     if (!safe.endsWith('.json')) return 0
     try {
-      await unlink(join(RESULT_DIR, safe))
+      await unlink(join(resultDir, safe))
       return 1
     } catch {
       return 0
@@ -214,7 +303,7 @@ async function clearResults(name?: string): Promise<number> {
   }
   let names: string[] = []
   try {
-    names = await readdir(RESULT_DIR)
+    names = await readdir(resultDir)
   } catch {
     return 0
   }
@@ -223,7 +312,7 @@ async function clearResults(name?: string): Promise<number> {
   await Promise.all(
     files.map(async (n) => {
       try {
-        await unlink(join(RESULT_DIR, n))
+        await unlink(join(resultDir, n))
         removed += 1
       } catch {
         // ignore
@@ -359,7 +448,7 @@ function breakdownMatch(
 const AMS_LABEL = /komisi.*ams|ams.*komisi|biaya komisi ams|komisi affiliate|komisi afiliasi/i
 
 /** Read every result file and roll up the accounting totals. */
-async function computeSummary(): Promise<Summary> {
+async function computeSummary(resultDir: string): Promise<Summary> {
   const summary: Summary = {
     orderCount: 0,
     productCount: 0,
@@ -376,7 +465,7 @@ async function computeSummary(): Promise<Summary> {
 
   let names: string[] = []
   try {
-    names = await readdir(RESULT_DIR)
+    names = await readdir(resultDir)
   } catch {
     return summary
   }
@@ -388,7 +477,7 @@ async function computeSummary(): Promise<Summary> {
   for (const name of files) {
     let data: ResultShape
     try {
-      data = JSON.parse(await readFile(join(RESULT_DIR, name), 'utf8')) as ResultShape
+      data = JSON.parse(await readFile(join(resultDir, name), 'utf8')) as ResultShape
     } catch {
       continue
     }
@@ -448,7 +537,8 @@ const server = createServer(async (req, res) => {
   const path = url.pathname
 
   // --- access gate (only active when WEB_TOKEN is set) ---
-  if (!isAuthed(req, url)) {
+  const auth = await resolveAuth(req, url)
+  if (auth.role === 'none') {
     if (req.method === 'GET' && path === '/') {
       res.writeHead(401, { 'content-type': 'text/html; charset=utf-8' })
       res.end(
@@ -463,31 +553,83 @@ const server = createServer(async (req, res) => {
     res.end(JSON.stringify({ ok: false, error: 'unauthorized' }))
     return
   }
+  const isAdmin = auth.role === 'admin' || auth.role === 'open'
 
   // --- UI ---
   if (req.method === 'GET' && path === '/') {
     const headers: Record<string, string> = { 'content-type': 'text/html; charset=utf-8' }
-    // Valid token in the URL → remember it in an HttpOnly cookie so the
-    // browser keeps access without the token in every link.
-    if (WEB_TOKEN && url.searchParams.get('token')) {
-      headers['set-cookie'] = `sid=${encodeURIComponent(WEB_TOKEN)}; HttpOnly; SameSite=Lax; Path=/; Max-Age=86400`
+    // Valid token in the URL → remember the EXACT token presented (admin or
+    // guest) in an HttpOnly cookie so the browser keeps access without the
+    // token in every link.
+    if (WEB_TOKEN && auth.token && url.searchParams.get('token')) {
+      headers['set-cookie'] = `sid=${encodeURIComponent(auth.token)}; HttpOnly; SameSite=Lax; Path=/; Max-Age=86400`
     }
     res.writeHead(200, headers)
     res.end(PAGE_HTML)
     return
   }
 
+  // --- who am I? (UI uses this to show/hide the admin token panel) ---
+  if (req.method === 'GET' && path === '/api/whoami') {
+    sendJson(res, 200, { ok: true, role: auth.role, isAdmin, protected: !!WEB_TOKEN })
+    return
+  }
+
+  // --- token management (admin only) ---
+  if (path === '/api/tokens') {
+    if (!isAdmin) {
+      sendJson(res, 403, { ok: false, error: 'hanya admin yang boleh kelola token' })
+      return
+    }
+    if (req.method === 'GET') {
+      // Build share links from the request host so they're copy-paste ready.
+      const tokens = await listTokens()
+      const base = `${req.headers['x-forwarded-proto'] ?? 'http'}://${req.headers.host}`
+      sendJson(res, 200, {
+        ok: true,
+        base,
+        tokens: tokens.map((t) => ({ ...t, link: `${base}/?token=${t.token}` })),
+      })
+      return
+    }
+    if (req.method === 'POST') {
+      const raw = await readBody(req)
+      let label = ''
+      try {
+        label = (JSON.parse(raw) as { label?: string }).label ?? ''
+      } catch {
+        label = ''
+      }
+      const entry = await createToken(label)
+      broadcast('admin', `[web] 🔑 token akses dibuat untuk "${entry.label}"`)
+      const base = `${req.headers['x-forwarded-proto'] ?? 'http'}://${req.headers.host}`
+      sendJson(res, 200, { ok: true, token: { ...entry, link: `${base}/?token=${entry.token}` } })
+      return
+    }
+    if (req.method === 'DELETE') {
+      // NOTE: the token to revoke is passed as `target`, NOT `token` — the
+      // `token` query param is reserved for the caller's own auth.
+      const token = url.searchParams.get('target') ?? ''
+      const removed = await revokeToken(token)
+      if (removed) broadcast('admin', '[web] 🔒 sebuah token akses dicabut')
+      sendJson(res, removed ? 200 : 404, { ok: removed })
+      return
+    }
+  }
+
   // --- live log stream (SSE) ---
   if (req.method === 'GET' && path === '/api/stream') {
+    const channel = channelFor(auth)
     res.writeHead(200, {
       'content-type': 'text/event-stream',
       'cache-control': 'no-cache',
       connection: 'keep-alive',
     })
-    res.write(`event: status\ndata: ${JSON.stringify({ running })}\n\n`)
+    res.write(`event: status\ndata: ${JSON.stringify({ running: runningChannels.has(channel) })}\n\n`)
     res.write(`retry: 3000\n\n`)
-    sseClients.add(res)
-    req.on('close', () => sseClients.delete(res))
+    const clients = clientsFor(channel)
+    clients.add(res)
+    req.on('close', () => clients.delete(res))
     return
   }
 
@@ -500,13 +642,13 @@ const server = createServer(async (req, res) => {
     } catch {
       // ignore — use defaults
     }
-    if (running) {
+    if (runningChannels.has(channelFor(auth))) {
       sendJson(res, 409, { ok: false, error: 'sedang berjalan' })
       return
     }
     sendJson(res, 202, { ok: true })
     // Fire and forget — progress streams over SSE.
-    void runScrape(body)
+    void runScrape(body, auth)
     return
   }
 
@@ -543,8 +685,10 @@ const server = createServer(async (req, res) => {
     }
 
     // Save ALL cookies (login flow filters by domain itself) so nothing is lost.
+    const paths = dataPathsFor(auth)
     try {
-      await writeFile(COOKIES_PATH, serializeNetscape(all), 'utf8')
+      await mkdir(dirname(paths.cookiesPath), { recursive: true }).catch(() => {})
+      await writeFile(paths.cookiesPath, serializeNetscape(all), 'utf8')
     } catch (e) {
       sendJson(res, 500, {
         ok: false,
@@ -553,6 +697,7 @@ const server = createServer(async (req, res) => {
       return
     }
     broadcast(
+      channelFor(auth),
       `[web] 🍪 cookies tersimpan — ${shopeeCookies.length} cookie Shopee (dari ${all.length} total) → cookies.txt`
     )
     sendJson(res, 200, { ok: true, shopee: shopeeCookies.length, total: all.length })
@@ -561,20 +706,23 @@ const server = createServer(async (req, res) => {
 
   // --- list result files ---
   if (req.method === 'GET' && path === '/api/results') {
-    sendJson(res, 200, { running, files: await listResults() })
+    const paths = dataPathsFor(auth)
+    sendJson(res, 200, { running: runningChannels.has(channelFor(auth)), files: await listResults(paths.resultDir) })
     return
   }
 
   // --- accounting summary across all result files ---
   if (req.method === 'GET' && path === '/api/summary') {
-    sendJson(res, 200, { ok: true, summary: await computeSummary() })
+    const paths = dataPathsFor(auth)
+    sendJson(res, 200, { ok: true, summary: await computeSummary(paths.resultDir) })
     return
   }
 
   // --- read one result file ---
   if (req.method === 'GET' && path === '/api/result') {
+    const paths = dataPathsFor(auth)
     const name = url.searchParams.get('name') ?? ''
-    const content = await readResult(name)
+    const content = await readResult(paths.resultDir, name)
     if (content == null) {
       sendJson(res, 404, { ok: false, error: 'tidak ditemukan' })
       return
@@ -586,13 +734,15 @@ const server = createServer(async (req, res) => {
 
   // --- clear result files (all, or one via ?name=) ---
   if (req.method === 'POST' && path === '/api/clear') {
-    if (running) {
+    if (runningChannels.has(channelFor(auth))) {
       sendJson(res, 409, { ok: false, error: 'tidak bisa hapus saat scrape berjalan' })
       return
     }
+    const paths = dataPathsFor(auth)
     const name = url.searchParams.get('name') ?? undefined
-    const removed = await clearResults(name)
+    const removed = await clearResults(paths.resultDir, name)
     broadcast(
+      channelFor(auth),
       name
         ? `[web] 🗑️  hapus 1 file hasil: ${basename(name)}`
         : `[web] 🗑️  bersihkan semua hasil — ${removed} file dihapus`
@@ -716,6 +866,26 @@ const PAGE_HTML = /* html */ `<!doctype html>
   .btn-sm { width: auto; padding: 7px 12px; font-size: 13px; font-weight: 600; }
   .btn:disabled { opacity: .5; cursor: not-allowed; box-shadow: none; }
   .hint { font-size: 12.5px; color: var(--muted); margin: 0 0 12px; line-height: 1.55; }
+
+  /* ---- Token list (admin panel) ---- */
+  .tokenlist { margin-top: 14px; display: flex; flex-direction: column; gap: 10px; }
+  .tokenlist:empty::before { content: 'Belum ada token. Buat satu untuk dibagikan.';
+    color: var(--muted); font-size: 12.5px; }
+  .tk { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 11px 13px; }
+  .tk .tk-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .tk .tk-name { font-weight: 700; color: var(--navy); font-size: 14px; }
+  .tk .tk-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .tk .tk-link { display: flex; gap: 8px; margin-top: 9px; }
+  .tk .tk-link input { font-size: 12px; padding: 7px 9px; background: #fff;
+    font-family: ui-monospace, Menlo, Consolas, monospace; color: var(--ink); }
+  .tk-btn { border: 1px solid var(--border); background: #fff; color: var(--navy); cursor: pointer;
+    border-radius: 8px; padding: 7px 10px; font-size: 12px; font-weight: 600; white-space: nowrap;
+    display: inline-flex; align-items: center; gap: 5px; transition: background .12s, border-color .12s; }
+  .tk-btn svg { width: 14px; height: 14px; }
+  .tk-btn.copy:hover { background: var(--blue-soft); border-color: #cbd9f5; }
+  .tk-btn.revoke { color: var(--err); border-color: #f1c7c5; }
+  .tk-btn.revoke:hover { background: var(--err-soft); }
   code { background: var(--surface-2); border: 1px solid var(--border); border-radius: 5px;
     padding: 1px 6px; font-size: 12px; font-family: ui-monospace, Menlo, Consolas, monospace; }
 
@@ -926,6 +1096,28 @@ const PAGE_HTML = /* html */ `<!doctype html>
           Upload Cookies
         </button>
         <div id="cookieStatus" class="hint" style="margin:12px 0 0"></div>
+      </div>
+    </div>
+
+    <div class="card" id="tokenCard" style="display:none">
+      <div class="head">
+        <svg class="hicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+        <h2>Kelola Akses (Token)</h2>
+      </div>
+      <div class="body">
+        <p class="hint">
+          Buat token akses untuk tiap orang. Setiap token punya link sendiri dan
+          bisa dicabut kapan saja tanpa mengganggu yang lain.
+        </p>
+        <div class="row">
+          <input id="tokenLabel" type="text" placeholder="Nama / label (mis. Budi)" />
+          <button class="btn btn-primary" id="addToken" style="width:auto;white-space:nowrap;margin:0">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            Buat
+          </button>
+        </div>
+        <div id="tokenList" class="tokenlist"></div>
+        <div id="tokenStatus" class="hint" style="margin:10px 0 0"></div>
       </div>
     </div>
   </div>
@@ -1336,6 +1528,76 @@ const PAGE_HTML = /* html */ `<!doctype html>
     }
   };
 
+  // --- Token management (admin only) ---
+  function svgCopy() {
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+  }
+
+  async function initTokens() {
+    const who = await fetch('/api/whoami').then((x) => x.json()).catch(() => null);
+    // Panel hanya untuk admin (atau mode lokal tanpa token).
+    if (!who || !who.ok || !who.isAdmin || !who.protected) return;
+    $('tokenCard').style.display = '';
+    loadTokens();
+  }
+
+  async function loadTokens() {
+    const r = await fetch('/api/tokens').then((x) => x.json()).catch(() => null);
+    const list = $('tokenList');
+    if (!r || !r.ok) { list.innerHTML = ''; return; }
+    list.innerHTML = '';
+    for (const t of r.tokens) {
+      const div = document.createElement('div');
+      div.className = 'tk';
+      const seen = t.lastSeen ? new Date(t.lastSeen).toLocaleString('id-ID') : 'belum pernah';
+      const made = new Date(t.createdAt).toLocaleDateString('id-ID');
+      div.innerHTML =
+        '<div class="tk-top"><div><div class="tk-name">' + esc(t.label) + '</div>' +
+        '<div class="tk-meta">dibuat ' + made + ' · dipakai ' + esc(seen) + '</div></div>' +
+        '<button class="tk-btn revoke">Cabut</button></div>' +
+        '<div class="tk-link"><input type="text" readonly value="' + esc(t.link) + '" />' +
+        '<button class="tk-btn copy">' + svgCopy() + 'Salin</button></div>';
+      const linkInput = div.querySelector('.tk-link input');
+      div.querySelector('.tk-btn.copy').onclick = () => {
+        linkInput.select();
+        navigator.clipboard.writeText(t.link).then(
+          () => { $('tokenStatus').textContent = '✅ link "' + t.label + '" disalin'; },
+          () => { document.execCommand('copy'); }
+        );
+      };
+      div.querySelector('.tk-btn.revoke').onclick = async () => {
+        const ok = await askConfirm('Cabut token ini?', 'Akses "' + t.label + '" akan langsung diblokir.');
+        if (!ok) return;
+        await fetch('/api/tokens?target=' + encodeURIComponent(t.token), { method: 'DELETE' }).catch(() => {});
+        $('tokenStatus').textContent = '🔒 token "' + t.label + '" dicabut';
+        loadTokens();
+      };
+      list.appendChild(div);
+    }
+  }
+
+  $('addToken').onclick = async () => {
+    const label = $('tokenLabel').value.trim();
+    $('addToken').disabled = true;
+    try {
+      const r = await fetch('/api/tokens', {
+        method: 'POST', headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ label }),
+      }).then((x) => x.json()).catch(() => null);
+      if (r && r.ok) {
+        $('tokenLabel').value = '';
+        $('tokenStatus').textContent = '✅ token "' + r.token.label + '" dibuat — salin link-nya di bawah';
+        loadTokens();
+      } else {
+        $('tokenStatus').textContent = '❌ ' + ((r && r.error) || 'gagal membuat token');
+      }
+    } finally {
+      $('addToken').disabled = false;
+    }
+  };
+  $('tokenLabel').onkeydown = (e) => { if (e.key === 'Enter') $('addToken').click(); };
+
+  initTokens();
   loadResults();
   loadSummary();
 </script>

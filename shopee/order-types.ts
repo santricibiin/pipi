@@ -90,6 +90,11 @@ export type ScrapeOrdersOptions = {
   maxPages?: number
   /** Output directory for the per-order JSON files. Defaults to `result/`. */
   outDir?: string
+  /**
+   * Directory to look for the saved session when running browserless (API)
+   * mode. Defaults to `shopee/sessions/`. Used for per-token data isolation.
+   */
+  sessionDir?: string
   /** Delay (ms) between visiting each order detail, to be gentle. Default 0. */
   perOrderDelayMs?: number
   /**

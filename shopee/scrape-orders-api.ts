@@ -208,7 +208,7 @@ export async function scrapeOrdersApiDirect(
   sessionPath?: string
 ): Promise<ScrapeOrdersResult> {
   const log = options.log ?? ((m: string) => console.log(m))
-  const path = sessionPath ?? (await findLatestSession())
+  const path = sessionPath ?? (await findLatestSession(options.sessionDir ? resolve(options.sessionDir) : undefined))
   if (!path) {
     throw new Error(
       'no saved session found in shopee/sessions/ — run a normal login once first (e.g. npm run shopee:orders -- --browser --limit 1)'
