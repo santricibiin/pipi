@@ -1,0 +1,34 @@
+[
+  {
+    "id": "example-card-1",
+    "label": "example card — Jane Doe",
+    "number": "4242 4242 4242 4242",
+    "expMonth": 12,
+    "expYear": 2029,
+    "cvc": "123",
+    "billing": {
+      "name": "Jane Doe",
+      "country": "US",
+      "line1": "1600 Amphitheatre Parkway",
+      "line2": "",
+      "city": "Mountain View",
+      "state": "CA",
+      "postalCode": "94043"
+    }
+  },
+  {
+    "id": "example-card-id",
+    "label": "example card — Budi Santoso (Indonesia)",
+    "number": "5555555555554444",
+    "expiry": "08/2030",
+    "cvc": "321",
+    "billing": {
+      "name": "Budi Santoso",
+      "country": "ID",
+      "line1": "Jalan Jenderal Sudirman No. 52-53",
+      "city": "Jakarta Selatan",
+      "state": "DKI Jakarta",
+      "postalCode": "12190"
+    }
+  }
+]

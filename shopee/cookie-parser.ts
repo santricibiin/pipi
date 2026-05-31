@@ -1,0 +1,70 @@
+/**
+ * Netscape cookies.txt parser.
+ *
+ * Format (tab-separated):
+ *   domain  includeSubdomains  path  secure  expires  name  value
+ *
+ * Lines starting with `#` are comments and ignored, EXCEPT the `#HttpOnly_`
+ * prefix some exporters use to mark HttpOnly cookies.
+ */
+
+import { readFile } from 'node:fs/promises'
+import { resolve } from 'node:path'
+import type { NetscapeCookie } from './types'
+
+const HTTPONLY_PREFIX = '#HttpOnly_'
+
+function parseLine(line: string): NetscapeCookie | null {
+  let raw = line
+  let httpOnly = false
+
+  if (raw.startsWith(HTTPONLY_PREFIX)) {
+    httpOnly = true
+    raw = raw.slice(HTTPONLY_PREFIX.length)
+  } else if (raw.startsWith('#')) {
+    return null // comment
+  }
+
+  const trimmed = raw.trim()
+  if (!trimmed) return null
+
+  // Netscape format is tab-separated; fall back to splitting on runs of
+  // whitespace for files that got reformatted.
+  const parts = trimmed.includes('\t') ? trimmed.split('\t') : trimmed.split(/\s+/)
+  if (parts.length < 7) return null
+
+  const [domain, includeSub, path, secure, expires, name, ...valueParts] = parts
+  const value = valueParts.join('\t') // value may itself contain tabs
+
+  return {
+    domain,
+    includeSubdomains: includeSub.toUpperCase() === 'TRUE',
+    path: path || '/',
+    secure: secure.toUpperCase() === 'TRUE',
+    expires: Number.parseInt(expires, 10) || 0,
+    name,
+    value,
+    httpOnly
+  }
+}
+
+/** Parse all cookies from a Netscape cookies.txt file. */
+export async function parseCookiesFile(path: string): Promise<NetscapeCookie[]> {
+  const abs = resolve(path)
+  const raw = await readFile(abs, 'utf-8')
+  const cookies: NetscapeCookie[] = []
+  for (const line of raw.split(/\r?\n/)) {
+    const cookie = parseLine(line)
+    if (cookie) cookies.push(cookie)
+  }
+  return cookies
+}
+
+/** Keep only cookies whose domain belongs to the given root (e.g. `shopee.co.id`). */
+export function filterByDomain(cookies: NetscapeCookie[], rootDomain: string): NetscapeCookie[] {
+  const root = rootDomain.toLowerCase()
+  return cookies.filter((c) => {
+    const d = c.domain.replace(/^\./, '').toLowerCase()
+    return d === root || d.endsWith(`.${root}`)
+  })
+}

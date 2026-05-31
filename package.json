@@ -1,0 +1,35 @@
+{
+  "name": "kiro-auto",
+  "version": "2.0.0",
+  "description": "Kiro IDE account tool — Google OAuth registration + account switching",
+  "main": "./scripts/switch.ts",
+  "author": "developer",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "switch": "tsx scripts/switch.ts",
+    "register": "tsx scripts/register.ts",
+    "upgrade": "tsx scripts/upgrade.ts",
+    "bin": "tsx scripts/bin.ts",
+    "shopee": "tsx shopee/index.ts",
+    "shopee:orders": "tsx shopee/scrape.ts",
+    "shopee:web": "tsx shopee/server.ts",
+    "shopee:fetch": "camoufox-js fetch",
+    "deploy": "bash deploy.sh",
+    "install-browser": "npx playwright install chromium",
+    "install-camoufox": "node node_modules/camoufox-js/dist/__main__.js fetch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "camoufox-js": "^0.10.2",
+    "playwright": "^1.57.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "undici": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.6",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

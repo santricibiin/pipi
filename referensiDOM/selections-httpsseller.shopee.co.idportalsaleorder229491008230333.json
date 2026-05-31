@@ -1,0 +1,3697 @@
+{
+  "url": "https://seller.shopee.co.id/portal/sale/order/229491008230333",
+  "title": "Shopee Seller Centre",
+  "timestamp": "2026-05-31T14:04:35.723Z",
+  "sections": {
+    "sidebar": [
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel",
+        "tag": "div",
+        "id": null,
+        "className": "page-container static-container has-sidebar-panel",
+        "childCount": 2,
+        "textPreview": "SelesaiTidak ada penilaian diterimaNo. Pesanan260410E995X0WW Alamat PengirimanR***a, ******95Jalan R",
+        "rect": {
+          "width": 1328,
+          "height": 2037
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel",
+        "tag": "div",
+        "id": null,
+        "className": "sidebar-panel",
+        "childCount": 2,
+        "textPreview": ".shopee-cs-chat-scope-style .TextMessage-module_content__1OhmO { max-width: 320px; color: rgb(51, 51",
+        "rect": {
+          "width": 48,
+          "height": 607
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #shopee-cs-chat-content-container > #__mmf_fake_module_cs_chat__ > mmf-body > #fake-module-cs-chat > div.BabelColumn_babelColumnContainer__akNcK > div.BabelColumn_babelColumnContent__dP0iP > #cs-chat-main-wrapper > #cs-chat-main-layout > div.MainLayout_mainContainer__WKtpQ > div.MainLayout_conversationContainer__djUcG.MainLayout_conversationRevampContainer__VIUFQ.MainLayout_conversationRevampCloseMenuContainer__zxwd4 > div.ConversationDetailLayout_root__XsVce > div.MessageSessionLayout_root__l5sjx > div.WithInfiniteLoading_root__Tc75L.WithInfiniteLoading_reverse__9DdSE > div.WithInfiniteLoading_component__50OCM > #messageSessionLayout > div.ScrollToBottom_root__o9y7R.ScrollToBottom_noUnread__XwkeX.ScrollToBottom_sidebarStyle__he53T",
+        "tag": "div",
+        "id": null,
+        "className": "ScrollToBottom_root__o9y7R ScrollToBottom_noUnread__XwkeX ScrollToBottom_sidebarStyle__he53T",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.subaccount-dropdown > div.subaccount-dropdown-body > ul > div.eds-dropdown.lang-option-dropdown > div.eds-popper > ul.eds-dropdown-menu",
+        "tag": "ul",
+        "id": null,
+        "className": "eds-dropdown-menu",
+        "childCount": 2,
+        "textPreview": "Bahasa Indonesia (Indonesian)English",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__nav",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__nav",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__nav > div.eds-tabs__nav-warp",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__nav-warp",
+        "childCount": 2,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__nav > div.eds-tabs__nav-warp > div.eds-tabs__nav-tabs",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__nav-tabs",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "header": [
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar",
+        "tag": "div",
+        "id": null,
+        "className": "header-bar shopee-header-bar",
+        "childCount": 1,
+        "textPreview": "BerandaBerandaBerandaPesanan SayaPesanan SayaPesanan SayaRincian PesananRincian PesananRincian Pesan",
+        "rect": {
+          "width": 1265,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content",
+        "tag": "div",
+        "id": null,
+        "className": "header-content",
+        "childCount": 5,
+        "textPreview": "BerandaBerandaBerandaPesanan SayaPesanan SayaPesanan SayaRincian PesananRincian PesananRincian Pesan",
+        "rect": {
+          "width": 1265,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.logo-box > a.header-logo.only",
+        "tag": "a",
+        "id": null,
+        "className": "header-logo only",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 97,
+          "height": 30
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action",
+        "tag": "div",
+        "id": null,
+        "className": "header-action",
+        "childCount": 3,
+        "textPreview": "Download Aplikasi Seller Centre ShopeeKembangkan bisnis secara profesional dan kelola tokomu dengan ",
+        "rect": {
+          "width": 144,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popper eds-popover__popper eds-popover__popper--light with-arrow header-bar-download-app-popover",
+        "childCount": 1,
+        "textPreview": "Download Aplikasi Seller Centre ShopeeKembangkan bisnis secara profesional dan kelola tokomu dengan ",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popper eds-popover__popper eds-popover__popper--light with-arrow header-bar-category-buttons-popover",
+        "childCount": 1,
+        "textPreview": "Pesanan SayaProduk SayaPusat PromosiSaldo SayaPerforma TokoPengaturan TokoFormulir Feedback",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popper eds-popover__popper eds-popover__popper--light with-arrow header-bar-account-tooltip",
+        "childCount": 1,
+        "textPreview": "faiq_107Profil TokoPengaturan TokoBahasa Indonesia (Indonesian)Bahasa Indonesia (Indonesian)EnglishL",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div > div.inline > div.order-status-wrapper > div.header",
+        "tag": "div",
+        "id": null,
+        "className": "header",
+        "childCount": 2,
+        "textPreview": "Selesai",
+        "rect": {
+          "width": 84,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.section > div > div.header",
+        "tag": "div",
+        "id": null,
+        "className": "header",
+        "childCount": 2,
+        "textPreview": "No. Pesanan",
+        "rect": {
+          "width": 872,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.section > div.header",
+        "tag": "div",
+        "id": null,
+        "className": "header",
+        "childCount": 2,
+        "textPreview": "Alamat Pengiriman",
+        "rect": {
+          "width": 872,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.section > div.header",
+        "tag": "div",
+        "id": null,
+        "className": "header",
+        "childCount": 2,
+        "textPreview": "Informasi Jasa Kirim",
+        "rect": {
+          "width": 872,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.section > div.body > div.detail.indent-more > div.package-log > div.log-info > div.logistic-history-log > div.log-header-row",
+        "tag": "div",
+        "id": null,
+        "className": "log-header-row",
+        "childCount": 1,
+        "textPreview": "Paket 1: Hemat KargoSPX Hemat# SPXID060427166614",
+        "rect": {
+          "width": 840,
+          "height": 19
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.section > div.body > div.detail.indent-more > div.package-log > div.log-info > div.logistic-history-log > div.log-header-row > div.log-info-header",
+        "tag": "div",
+        "id": null,
+        "className": "log-info-header",
+        "childCount": 4,
+        "textPreview": "Paket 1: Hemat KargoSPX Hemat# SPXID060427166614",
+        "rect": {
+          "width": 381,
+          "height": 19
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.card-header",
+        "tag": "div",
+        "id": null,
+        "className": "card-header",
+        "childCount": 3,
+        "textPreview": "Informasi PembayaranLihat riwayat transaksi",
+        "rect": {
+          "width": 872,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.card-header",
+        "tag": "div",
+        "id": null,
+        "className": "card-header",
+        "childCount": 2,
+        "textPreview": "Penyesuaian PesananMohon perhatikan bahwa biaya penyesuaian pesanan dapat berubah meskipun pesanan t",
+        "rect": {
+          "width": 872,
+          "height": 19
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__header-container",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 872,
+          "height": 41
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__main-header",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 870,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header",
+        "tag": "table",
+        "id": null,
+        "className": "eds-table__header",
+        "childCount": 2,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 870,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.card-header",
+        "tag": "div",
+        "id": null,
+        "className": "card-header",
+        "childCount": 3,
+        "textPreview": ".st0{fill-rule:evenodd;clip-rule:evenodd;} Penghasilan Akhir Total pendapatan yang akan kamu dapatka",
+        "rect": {
+          "width": 872,
+          "height": 31
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.buyer-payment.card-style.od-card > div.brief > div.od-card-header",
+        "tag": "div",
+        "id": null,
+        "className": "od-card-header",
+        "childCount": 1,
+        "textPreview": "Pembayaran Pembeli",
+        "rect": {
+          "width": 184,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.buyer-payment.card-style.od-card > div.brief > div.od-card-header > div.header",
+        "tag": "div",
+        "id": null,
+        "className": "header",
+        "childCount": 2,
+        "textPreview": "Pembayaran Pembeli",
+        "rect": {
+          "width": 184,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.notification-header",
+        "tag": "div",
+        "id": null,
+        "className": "notification-header",
+        "childCount": 2,
+        "textPreview": "NotifikasiMuat UlangMinimize",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__header",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__header",
+        "childCount": 1,
+        "textPreview": "Proses operasional selesai direkam",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__header > div.eds-modal__header-inner.eds-modal__header-inner__has-close",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__header-inner eds-modal__header-inner__has-close",
+        "childCount": 1,
+        "textPreview": "Proses operasional selesai direkam",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "main_content": [
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content",
+        "tag": "div",
+        "id": null,
+        "className": "header-content",
+        "childCount": 5,
+        "textPreview": "BerandaBerandaBerandaPesanan SayaPesanan SayaPesanan SayaRincian PesananRincian PesananRincian Pesan",
+        "rect": {
+          "width": 1265,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box",
+        "tag": "div",
+        "id": null,
+        "className": "content-box",
+        "childCount": 2,
+        "textPreview": "BerandaBerandaBerandaPesanan SayaPesanan SayaPesanan SayaRincian PesananRincian PesananRincian Pesan",
+        "rect": {
+          "width": 886,
+          "height": 54
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Beranda",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Pesanan Saya",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Rincian Pesanan",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 1,
+        "textPreview": "Download Aplikasi Seller Centre ShopeeKembangkan bisnis secara profesional dan kelola tokomu dengan ",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popover__ref > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Akses Cepat",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 1,
+        "textPreview": "Pesanan SayaProduk SayaPusat PromosiSaldo SayaPerforma TokoPengaturan TokoFormulir Feedback",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.education-frame > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Pusat Edukasi Penjual",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popover__ref > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Akun",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 1,
+        "textPreview": "faiq_107Profil TokoPengaturan TokoBahasa Indonesia (Indonesian)Bahasa Indonesia (Indonesian)EnglishL",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper",
+        "tag": "div",
+        "id": null,
+        "className": "page-content-wrapper static-content-wrapper",
+        "childCount": 1,
+        "textPreview": "SelesaiTidak ada penilaian diterimaNo. Pesanan260410E995X0WW Alamat PengirimanR***a, ******95Jalan R",
+        "rect": {
+          "width": 1232,
+          "height": 1957
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": "SelesaiTidak ada penilaian diterima",
+        "rect": {
+          "width": 872,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 4,
+        "textPreview": "No. Pesanan260410E995X0WW Alamat PengirimanR***a, ******95Jalan Raya Dewi Rengganistambelang, RT.14/",
+        "rect": {
+          "width": 872,
+          "height": 447
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": "bundanyaaini530Ikuti Chat Sekarang",
+        "rect": {
+          "width": 872,
+          "height": 44
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.user-view-item.linkable > div.content",
+        "tag": "div",
+        "id": null,
+        "className": "content",
+        "childCount": 1,
+        "textPreview": "bundanyaaini530",
+        "rect": {
+          "width": 568,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": "Informasi PembayaranLihat riwayat transaksiNo.ProdukHarga Satuan JumlahSubtotal1 Abaya Wafa Anak Tas",
+        "rect": {
+          "width": 872,
+          "height": 613
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item > div.income-label > div.income-label-text > div.eds-popover.eds-popover--light.payment-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 1,
+        "textPreview": "Shopee mengenakan biaya administrasi 8.25% dari harga produkmu.",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item > div.income-label > div.income-label-text > div.eds-popover.eds-popover--light.payment-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 1,
+        "textPreview": "Biaya Layanan Promo XTRA-Rp8.550Pelajari kategori biaya Gratis Ongkir XTRA di sini",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item > div.income-label > div.income-label-text > div.eds-popover.eds-popover--light.payment-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 1,
+        "textPreview": "Biaya Proses Pesanan adalah biaya yang dikenakan untuk setiap pesanan terselesaikan yang dibuat mula",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-item.income-subtotal.strong > div.income-label > div.income-label-text > div.eds-popover.eds-popover--light.payment-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 1,
+        "textPreview": "Pendapatan sebenarnya akan ditentukan setelah pesanan ini selesai.",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.card-header > div.card-title > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Mohon perhatikan bahwa biaya penyesuaian pesanan dapat berubah meskipun pesanan telah selesai dan da",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-scrollbar__content",
+        "childCount": 4,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 870,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__empty > div.eds-table__empty-content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__empty-content",
+        "childCount": 2,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 297,
+          "height": 80
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.card-header > div.card-title > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Total pendapatan yang akan kamu dapatkan dari pesanan ini, yaitu jumlah dari Penghasilan Pesanan dan",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": "Pembayaran PembeliRp150.400",
+        "rect": {
+          "width": 872,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-6.od-history > div.eds-card.note > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 248,
+          "height": 40
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-6.od-history > div.eds-card.note > div.eds-card__content > div.eds-row.order-notes.grid > div.eds-col.eds-col-20.text-right > div.eds-input.eds-input__area.content-editable",
+        "tag": "div",
+        "id": null,
+        "className": "eds-input eds-input__area content-editable",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 204,
+          "height": 40
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style",
+        "tag": "div",
+        "id": null,
+        "className": "panel-content-container shopee-cs-chat-scope-style platform-remote-component-scoped-style shopee-chat-scope-style",
+        "childCount": 3,
+        "textPreview": ".shopee-cs-chat-scope-style .TextMessage-module_content__1OhmO { max-width: 320px; color: rgb(51, 51",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper",
+        "tag": "div",
+        "id": null,
+        "className": "panel-content-wrapper",
+        "childCount": 1,
+        "textPreview": ".shopee-cs-chat-scope-style .TextMessage-module_content__1OhmO { max-width: 320px; color: rgb(51, 51",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #shopee-cs-chat-content-container > #__mmf_fake_module_cs_chat__ > mmf-body > #fake-module-cs-chat > div.BabelColumn_babelColumnContainer__akNcK > div.BabelColumn_babelColumnContent__dP0iP > div.BabelColumn_babelColumnContentTools__ftALo > div.spinner___NDhNE > div.shopee-react-spin > div.shopee-react-spin-content.orange",
+        "tag": "div",
+        "id": null,
+        "className": "shopee-react-spin-content orange",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #shopee-cs-chat-content-container > #__mmf_fake_module_cs_chat__ > mmf-body > #fake-module-cs-chat > div.BabelColumn_babelColumnContainer__akNcK > div.BabelColumn_babelColumnContent__dP0iP > div.BabelColumn_babelColumnContentTools__ftALo > div.myEnquires___MxI1S > div.container___ppmkO > div.loadingWrapper___n1f0e > div.spinner___NDhNE > div.shopee-react-spin > div.shopee-react-spin-content.orange",
+        "tag": "div",
+        "id": null,
+        "className": "shopee-react-spin-content orange",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper",
+        "tag": "div",
+        "id": null,
+        "className": "panel-content-wrapper",
+        "childCount": 1,
+        "textPreview": "NotifikasiMuat UlangMinimizeKamu belum menerima notifikasi",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper",
+        "tag": "div",
+        "id": null,
+        "className": "notification-content-wrapper",
+        "childCount": 4,
+        "textPreview": "NotifikasiMuat UlangMinimizeKamu belum menerima notifikasi",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.notification-header > div.operations > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Muat Ulang",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.notification-header > div.operations > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Minimize",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__content",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper",
+        "tag": "div",
+        "id": null,
+        "className": "panel-content-wrapper",
+        "childCount": 1,
+        "textPreview": ".CXaUASDv5Q {\n  display: flex;\n  align-items: center;\n  font-style: italic;\n  color: #999;\n}\n\n.IOSNt",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.panel-item > #shopee-cs-chat-icon-container > #cs-chat-panel-entry-container > div.PanelEntry_content__m+QPy",
+        "tag": "div",
+        "id": null,
+        "className": "PanelEntry_content__m+QPy",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 48,
+          "height": 48
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Hubungi Shopee",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Notifikasi",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--dark > div.eds-popover__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover__content",
+        "childCount": 0,
+        "textPreview": "Chat",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__content eds-modal__content--normal",
+        "childCount": 1,
+        "textPreview": "Formulir FeedbackSilakan pilih salah satu opsi di bawah ini:Analisa KendalaRekam video melalui fitur",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--medium.eds-modal__content--center",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__content eds-modal__content--medium eds-modal__content--center",
+        "childCount": 1,
+        "textPreview": "Laporan Diterima!Tutup",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--medium.eds-modal__content--center > div.success-content",
+        "tag": "div",
+        "id": null,
+        "className": "success-content",
+        "childCount": 3,
+        "textPreview": "Laporan Diterima!Tutup",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__content eds-modal__content--normal",
+        "childCount": 3,
+        "textPreview": "Proses operasional selesai direkamTerima kasih atas kerja samanya. Mohon untuk salin kode unik berik",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__body > div.modal-content",
+        "tag": "div",
+        "id": null,
+        "className": "modal-content",
+        "childCount": 2,
+        "textPreview": "Terima kasih atas kerja samanya. Mohon untuk salin kode unik berikut dan kirim ke Tim Shopee untuk d",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__main-header",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 870,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__main-body",
+        "childCount": 1,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 870,
+          "height": 161
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #shopee-cs-chat-content-container > #__mmf_fake_module_cs_chat__ > mmf-body > #fake-module-cs-chat > div.BabelColumn_babelColumnContainer__akNcK > div.BabelColumn_babelColumnContent__dP0iP > #cs-chat-main-wrapper > #cs-chat-main-layout > div.MainLayout_mainContainer__WKtpQ",
+        "tag": "div",
+        "id": null,
+        "className": "MainLayout_mainContainer__WKtpQ",
+        "childCount": 1,
+        "textPreview": "Chat dengan Chatbot lagiDibuat AI. Ketentuan Layanan berlaku.",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "tables": [
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header",
+        "tag": "table",
+        "id": null,
+        "className": "eds-table__header",
+        "childCount": 2,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 870,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > table.eds-table__body",
+        "tag": "table",
+        "id": null,
+        "className": "eds-table__body",
+        "childCount": 2,
+        "textPreview": null,
+        "rect": {
+          "width": 870,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table eds-table--empty-data table-adj",
+        "childCount": 4,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaianBelum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 870,
+          "height": 200
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__header-container",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 872,
+          "height": 41
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__main-header",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 870,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header",
+        "tag": "table",
+        "id": null,
+        "className": "eds-table__header",
+        "childCount": 2,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 870,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell.first-cell",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__cell first-cell",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian Dibuat",
+        "rect": {
+          "width": 290,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell.first-cell > span.eds-table__cell-label",
+        "tag": "span",
+        "id": null,
+        "className": "eds-table__cell-label",
+        "childCount": 0,
+        "textPreview": "Tanggal Penyesuaian Dibuat",
+        "rect": {
+          "width": 176,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__cell",
+        "childCount": 1,
+        "textPreview": "Alasan Penyesuaian",
+        "rect": {
+          "width": 290,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell > span.eds-table__cell-label",
+        "tag": "span",
+        "id": null,
+        "className": "eds-table__cell-label",
+        "childCount": 0,
+        "textPreview": "Alasan Penyesuaian",
+        "rect": {
+          "width": 125,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell.align-right.last-cell",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__cell align-right last-cell",
+        "childCount": 1,
+        "textPreview": "Penyesuaian",
+        "rect": {
+          "width": 290,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell.align-right.last-cell > span.eds-table__cell-label",
+        "tag": "span",
+        "id": null,
+        "className": "eds-table__cell-label",
+        "childCount": 0,
+        "textPreview": "Penyesuaian",
+        "rect": {
+          "width": 79,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__body-container",
+        "childCount": 2,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 872,
+          "height": 161
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__main-body",
+        "childCount": 1,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 870,
+          "height": 161
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > table.eds-table__body",
+        "tag": "table",
+        "id": null,
+        "className": "eds-table__body",
+        "childCount": 2,
+        "textPreview": null,
+        "rect": {
+          "width": 870,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__empty",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__empty",
+        "childCount": 1,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 871,
+          "height": 161
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__empty > div.eds-table__empty-content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__empty-content",
+        "childCount": 2,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 297,
+          "height": 80
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__empty > div.eds-table__empty-content > span.eds-table__empty-text",
+        "tag": "span",
+        "id": null,
+        "className": "eds-table__empty-text",
+        "childCount": 0,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 297,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__loading",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__loading",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-6.od-history > div.eds-card.note > div.eds-card__content > div.eds-row.order-notes.grid > div.eds-col.eds-col-20.text-right > div.eds-input.eds-input__area.content-editable",
+        "tag": "div",
+        "id": null,
+        "className": "eds-input eds-input__area content-editable",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 204,
+          "height": 40
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.product-list",
+        "tag": "div",
+        "id": null,
+        "className": "product-list",
+        "childCount": 2,
+        "textPreview": "No.ProdukHarga Satuan JumlahSubtotal1 Abaya Wafa Anak Tasel Terbaru / Abaya Capel Ibu Anak 3-15 Tahu",
+        "rect": {
+          "width": 839,
+          "height": 153
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.product-list > div.product-list-item.product-list-head",
+        "tag": "div",
+        "id": null,
+        "className": "product-list-item product-list-head",
+        "childCount": 5,
+        "textPreview": "No.ProdukHarga Satuan JumlahSubtotal",
+        "rect": {
+          "width": 871,
+          "height": 43
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.product-list > div > div.product-list-item",
+        "tag": "div",
+        "id": null,
+        "className": "product-list-item",
+        "childCount": 5,
+        "textPreview": "1 Abaya Wafa Anak Tasel Terbaru / Abaya Capel Ibu Anak 3-15 TahunDiasuransikanVariasi: burgundy,XL (",
+        "rect": {
+          "width": 839,
+          "height": 111
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item > div.income-label > div.income-label-text > div.eds-popover.eds-popover--light.payment-tooltip > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.payment-detail-tooltip-popper > div.key-value-list",
+        "tag": "div",
+        "id": null,
+        "className": "key-value-list",
+        "childCount": 2,
+        "textPreview": "Biaya Layanan Promo XTRA-Rp8.550",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.notification-list-wrapper.show-no-data",
+        "tag": "div",
+        "id": null,
+        "className": "notification-list-wrapper show-no-data",
+        "childCount": 1,
+        "textPreview": "Kamu belum menerima notifikasi",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.notification-list-wrapper.show-no-data > div.notification-list",
+        "tag": "div",
+        "id": null,
+        "className": "notification-list",
+        "childCount": 1,
+        "textPreview": "Kamu belum menerima notifikasi",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "forms": [
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.section > div.body > div.buyer-contact-information",
+        "tag": "div",
+        "id": null,
+        "className": "buyer-contact-information",
+        "childCount": 1,
+        "textPreview": "R***a, ******95",
+        "rect": {
+          "width": 840,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style",
+        "tag": "div",
+        "id": null,
+        "className": "panel-content-container shopee-cs-chat-scope-style platform-remote-component-scoped-style shopee-chat-scope-style",
+        "childCount": 3,
+        "textPreview": ".shopee-cs-chat-scope-style .TextMessage-module_content__1OhmO { max-width: 320px; color: rgb(51, 51",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style",
+        "tag": "div",
+        "id": null,
+        "className": "panel-item-container shopee-cs-chat-scope-style platform-remote-component-scoped-style shopee-chat-scope-style",
+        "childCount": 3,
+        "textPreview": "Hubungi Asisten PenjualHubungi Shopee11NotifikasiChat",
+        "rect": {
+          "width": 48,
+          "height": 607
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.education-frame > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.education-action.education > button.eds-button.eds-button--link.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--link eds-button--normal education-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.user-view-item.linkable > div.button-box > button.eds-button.eds-button--primary.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--primary eds-button--normal fix-button",
+        "childCount": 1,
+        "textPreview": "Ikuti",
+        "rect": {
+          "width": 90,
+          "height": 32
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.user-view-item.linkable > div.button-box > button.eds-button.eds-button--normal.chat",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--normal chat mini-chat",
+        "childCount": 1,
+        "textPreview": "Chat Sekarang",
+        "rect": {
+          "width": 144,
+          "height": 32
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.card-header > div > a > button.eds-button.eds-button--link.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--link eds-button--normal",
+        "childCount": 1,
+        "textPreview": "Lihat riwayat transaksi",
+        "rect": {
+          "width": 141,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--medium.eds-modal__content--center > div.success-content > button.eds-button.eds-button--primary.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--primary eds-button--normal",
+        "childCount": 1,
+        "textPreview": "Tutup",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__footer > div.eds-modal__footer-buttons > button.eds-button.eds-button--primary.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--primary eds-button--normal",
+        "childCount": 1,
+        "textPreview": "Salin",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div > div.body > div > div.btns",
+        "tag": "div",
+        "id": null,
+        "className": "btns",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 840,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #shopee-cs-chat-content-container > #__mmf_fake_module_cs_chat__ > mmf-body > #fake-module-cs-chat > div.BabelColumn_babelColumnContainer__akNcK > div.BabelColumn_babelColumnContent__dP0iP > div.BabelColumn_babelColumnContentTools__ftALo > div.myEnquires___MxI1S > div.container___ppmkO > div.select__search___SQyoa > div.shopee-react-select.shopee-react-select-single.select___KWRmV > div.trigger.trigger--normal > div.shopee-react-select__suffix > i.shopee-react-select__expend-btn.expend-btn.shopee-react-icon",
+        "tag": "i",
+        "id": null,
+        "className": "shopee-react-select__expend-btn expend-btn shopee-react-icon seller-icon-arrow-down-bold shopee-seller-iconfont",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #shopee-cs-chat-content-container > #__mmf_fake_module_cs_chat__ > mmf-body > #fake-module-cs-chat > div.BabelColumn_babelColumnContainer__akNcK > div.BabelColumn_babelColumnContent__dP0iP > div.BabelColumn_babelColumnContentTools__ftALo > div.myEnquires___MxI1S > div.container___ppmkO > div.select__search___SQyoa > div.shopee-react-search.search___uITd_ > div.shopee-react-input > div.shopee-react-input__inner.shopee-react-input__inner--normal > div.shopee-react-input__suffix > i.shopee-react-input__clear-btn.shopee-react-icon.seller-icon-round-close-s",
+        "tag": "i",
+        "id": null,
+        "className": "shopee-react-input__clear-btn shopee-react-icon seller-icon-round-close-s shopee-seller-iconfont",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popover__ref > div.download-app-button",
+        "tag": "div",
+        "id": null,
+        "className": "download-app-button",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 48,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popover__ref > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.dropdown-button-box",
+        "tag": "div",
+        "id": null,
+        "className": "dropdown-button-box",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 48,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popover__ref > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.dropdown-button-box > div.dropdown-button",
+        "tag": "div",
+        "id": null,
+        "className": "dropdown-button",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 48,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popover__ref > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.dropdown-button-box > div.dropdown-button > i.eds-icon.dropdown-button-icon",
+        "tag": "i",
+        "id": null,
+        "className": "eds-icon dropdown-button-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popper eds-popover__popper eds-popover__popper--light with-arrow header-bar-category-buttons-popover",
+        "childCount": 1,
+        "textPreview": "Pesanan SayaProduk SayaPusat PromosiSaldo SayaPerforma TokoPengaturan TokoFormulir Feedback",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.education-frame > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.education-action.education > button.eds-button.eds-button--link.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--link eds-button--normal education-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div > div.body > div > div.btns > div.remote-component > div.remote-invoice-buttons",
+        "tag": "div",
+        "id": null,
+        "className": "remote-invoice-buttons",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.user-view-item.linkable > div.button-box",
+        "tag": "div",
+        "id": null,
+        "className": "button-box",
+        "childCount": 2,
+        "textPreview": "Ikuti Chat Sekarang",
+        "rect": {
+          "width": 250,
+          "height": 32
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.user-view-item.linkable > div.button-box > button.eds-button.eds-button--primary.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--primary eds-button--normal fix-button",
+        "childCount": 1,
+        "textPreview": "Ikuti",
+        "rect": {
+          "width": 90,
+          "height": 32
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.user-view-item.linkable > div.button-box > button.eds-button.eds-button--normal.chat",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--normal chat mini-chat",
+        "childCount": 1,
+        "textPreview": "Chat Sekarang",
+        "rect": {
+          "width": 144,
+          "height": 32
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.card-header > div > a > button.eds-button.eds-button--link.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--link eds-button--normal",
+        "childCount": 1,
+        "textPreview": "Lihat riwayat transaksi",
+        "rect": {
+          "width": 141,
+          "height": 15
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--medium.eds-modal__content--center > div.success-content > button.eds-button.eds-button--primary.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--primary eds-button--normal",
+        "childCount": 1,
+        "textPreview": "Tutup",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__footer > div.eds-modal__footer-buttons",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__footer-buttons",
+        "childCount": 1,
+        "textPreview": "Salin",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__footer > div.eds-modal__footer-buttons > button.eds-button.eds-button--primary.eds-button--normal",
+        "tag": "button",
+        "id": null,
+        "className": "eds-button eds-button--primary eds-button--normal",
+        "childCount": 1,
+        "textPreview": "Salin",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "modals": [
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal",
+        "childCount": 1,
+        "textPreview": "Formulir FeedbackSilakan pilih salah satu opsi di bawah ini:Analisa KendalaRekam video melalui fitur",
+        "rect": {
+          "width": 1265,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__mask",
+        "childCount": 1,
+        "textPreview": "Formulir FeedbackSilakan pilih salah satu opsi di bawah ini:Analisa KendalaRekam video melalui fitur",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__container",
+        "childCount": 1,
+        "textPreview": "Formulir FeedbackSilakan pilih salah satu opsi di bawah ini:Analisa KendalaRekam video melalui fitur",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__box",
+        "childCount": 2,
+        "textPreview": "Formulir FeedbackSilakan pilih salah satu opsi di bawah ini:Analisa KendalaRekam video melalui fitur",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__content eds-modal__content--normal",
+        "childCount": 1,
+        "textPreview": "Formulir FeedbackSilakan pilih salah satu opsi di bawah ini:Analisa KendalaRekam video melalui fitur",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal",
+        "tag": "div",
+        "id": null,
+        "className": "feedback-modal",
+        "childCount": 2,
+        "textPreview": "Formulir FeedbackSilakan pilih salah satu opsi di bawah ini:Analisa KendalaRekam video melalui fitur",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.feedback-modal-title",
+        "tag": "div",
+        "id": null,
+        "className": "feedback-modal-title",
+        "childCount": 0,
+        "textPreview": "Formulir Feedback",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > i.eds-icon.eds-modal__close",
+        "tag": "i",
+        "id": null,
+        "className": "eds-icon eds-modal__close",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal",
+        "childCount": 1,
+        "textPreview": "Laporan Diterima!Tutup",
+        "rect": {
+          "width": 1265,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__mask",
+        "childCount": 1,
+        "textPreview": "Laporan Diterima!Tutup",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__container",
+        "childCount": 1,
+        "textPreview": "Laporan Diterima!Tutup",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__box",
+        "childCount": 2,
+        "textPreview": "Laporan Diterima!Tutup",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--medium.eds-modal__content--center",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__content eds-modal__content--medium eds-modal__content--center",
+        "childCount": 1,
+        "textPreview": "Laporan Diterima!Tutup",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > i.eds-icon.eds-modal__close",
+        "tag": "i",
+        "id": null,
+        "className": "eds-icon eds-modal__close",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal diagnosis-result-modal",
+        "childCount": 1,
+        "textPreview": "Proses operasional selesai direkamTerima kasih atas kerja samanya. Mohon untuk salin kode unik berik",
+        "rect": {
+          "width": 1265,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__mask",
+        "childCount": 1,
+        "textPreview": "Proses operasional selesai direkamTerima kasih atas kerja samanya. Mohon untuk salin kode unik berik",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__container",
+        "childCount": 1,
+        "textPreview": "Proses operasional selesai direkamTerima kasih atas kerja samanya. Mohon untuk salin kode unik berik",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__box",
+        "childCount": 2,
+        "textPreview": "Proses operasional selesai direkamTerima kasih atas kerja samanya. Mohon untuk salin kode unik berik",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__content eds-modal__content--normal",
+        "childCount": 3,
+        "textPreview": "Proses operasional selesai direkamTerima kasih atas kerja samanya. Mohon untuk salin kode unik berik",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__header",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__header",
+        "childCount": 1,
+        "textPreview": "Proses operasional selesai direkam",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__header > div.eds-modal__header-inner.eds-modal__header-inner__has-close",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__header-inner eds-modal__header-inner__has-close",
+        "childCount": 1,
+        "textPreview": "Proses operasional selesai direkam",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__header > div.eds-modal__header-inner.eds-modal__header-inner__has-close > div.eds-modal__title",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__title",
+        "childCount": 0,
+        "textPreview": "Proses operasional selesai direkam",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__body",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__body",
+        "childCount": 2,
+        "textPreview": "Terima kasih atas kerja samanya. Mohon untuk salin kode unik berikut dan kirim ke Tim Shopee untuk d",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__body > div.modal-content",
+        "tag": "div",
+        "id": null,
+        "className": "modal-content",
+        "childCount": 2,
+        "textPreview": "Terima kasih atas kerja samanya. Mohon untuk salin kode unik berikut dan kirim ke Tim Shopee untuk d",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__footer",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__footer",
+        "childCount": 1,
+        "textPreview": "Salin",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.eds-modal__footer > div.eds-modal__footer-buttons",
+        "tag": "div",
+        "id": null,
+        "className": "eds-modal__footer-buttons",
+        "childCount": 1,
+        "textPreview": "Salin",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal.diagnosis-result-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > i.eds-icon.eds-modal__close",
+        "tag": "i",
+        "id": null,
+        "className": "eds-icon eds-modal__close",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "tabs": [
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table eds-table--empty-data table-adj",
+        "childCount": 4,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaianBelum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 870,
+          "height": 200
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__header-container",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 872,
+          "height": 41
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__main-header",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 870,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header",
+        "tag": "table",
+        "id": null,
+        "className": "eds-table__header",
+        "childCount": 2,
+        "textPreview": "Tanggal Penyesuaian DibuatAlasan PenyesuaianPenyesuaian",
+        "rect": {
+          "width": 870,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell.first-cell",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__cell first-cell",
+        "childCount": 1,
+        "textPreview": "Tanggal Penyesuaian Dibuat",
+        "rect": {
+          "width": 290,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell.first-cell > span.eds-table__cell-label",
+        "tag": "span",
+        "id": null,
+        "className": "eds-table__cell-label",
+        "childCount": 0,
+        "textPreview": "Tanggal Penyesuaian Dibuat",
+        "rect": {
+          "width": 176,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__cell",
+        "childCount": 1,
+        "textPreview": "Alasan Penyesuaian",
+        "rect": {
+          "width": 290,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell > span.eds-table__cell-label",
+        "tag": "span",
+        "id": null,
+        "className": "eds-table__cell-label",
+        "childCount": 0,
+        "textPreview": "Alasan Penyesuaian",
+        "rect": {
+          "width": 125,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell.align-right.last-cell",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__cell align-right last-cell",
+        "childCount": 1,
+        "textPreview": "Penyesuaian",
+        "rect": {
+          "width": 290,
+          "height": 39
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__header-container > div.eds-table__main-header > table.eds-table__header > thead > tr > th > div.eds-table__cell.align-right.last-cell > span.eds-table__cell-label",
+        "tag": "span",
+        "id": null,
+        "className": "eds-table__cell-label",
+        "childCount": 0,
+        "textPreview": "Penyesuaian",
+        "rect": {
+          "width": 79,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__body-container",
+        "childCount": 2,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 872,
+          "height": 161
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__main-body",
+        "childCount": 1,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 870,
+          "height": 161
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > table.eds-table__body",
+        "tag": "table",
+        "id": null,
+        "className": "eds-table__body",
+        "childCount": 2,
+        "textPreview": null,
+        "rect": {
+          "width": 870,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__empty",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__empty",
+        "childCount": 1,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 871,
+          "height": 161
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__empty > div.eds-table__empty-content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__empty-content",
+        "childCount": 2,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 297,
+          "height": 80
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__empty > div.eds-table__empty-content > span.eds-table__empty-text",
+        "tag": "span",
+        "id": null,
+        "className": "eds-table__empty-text",
+        "childCount": 0,
+        "textPreview": "Belum ada biaya penyesuaian untuk pesanan ini",
+        "rect": {
+          "width": 297,
+          "height": 17
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.eds-table.eds-table--empty-data.table-adj > div.eds-table__body-container > div.eds-table__main-body > div.eds-scrollbar > div.eds-scrollbar__wrapper > div.eds-scrollbar__content > div.eds-table__loading",
+        "tag": "div",
+        "id": null,
+        "className": "eds-table__loading",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-6.od-history > div.eds-card.note > div.eds-card__content > div.eds-row.order-notes.grid > div.eds-col.eds-col-20.text-right > div.eds-input.eds-input__area.content-editable",
+        "tag": "div",
+        "id": null,
+        "className": "eds-input eds-input__area content-editable",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 204,
+          "height": 40
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs eds-tabs-scoped eds-tabs-normal eds-tabs-top category-tab",
+        "childCount": 3,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__nav",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__nav",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__nav > div.eds-tabs__nav-warp",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__nav-warp",
+        "childCount": 2,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__nav > div.eds-tabs__nav-warp > div.eds-tabs__nav-tabs",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__nav-tabs",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__nav > div.eds-tabs__nav-warp > div.eds-tabs__ink-bar",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__ink-bar",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-content-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.panel-content-wrapper > #notification-content-container > div.notification-content-wrapper > div.category-folder-wrapper > div.eds-tabs.eds-tabs-scoped.eds-tabs-normal > div.eds-tabs__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-tabs__content",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "cards": [
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card card-style",
+        "childCount": 1,
+        "textPreview": "SelesaiTidak ada penilaian diterima",
+        "rect": {
+          "width": 920,
+          "height": 104
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": "SelesaiTidak ada penilaian diterima",
+        "rect": {
+          "width": 872,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card card-style",
+        "childCount": 1,
+        "textPreview": "No. Pesanan260410E995X0WW Alamat PengirimanR***a, ******95Jalan Raya Dewi Rengganistambelang, RT.14/",
+        "rect": {
+          "width": 920,
+          "height": 543
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 4,
+        "textPreview": "No. Pesanan260410E995X0WW Alamat PengirimanR***a, ******95Jalan Raya Dewi Rengganistambelang, RT.14/",
+        "rect": {
+          "width": 872,
+          "height": 447
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card card-style",
+        "childCount": 1,
+        "textPreview": "bundanyaaini530Ikuti Chat Sekarang",
+        "rect": {
+          "width": 920,
+          "height": 92
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": "bundanyaaini530Ikuti Chat Sekarang",
+        "rect": {
+          "width": 872,
+          "height": 44
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card card-style",
+        "childCount": 1,
+        "textPreview": "Informasi PembayaranLihat riwayat transaksiNo.ProdukHarga Satuan JumlahSubtotal1 Abaya Wafa Anak Tas",
+        "rect": {
+          "width": 920,
+          "height": 661
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": "Informasi PembayaranLihat riwayat transaksiNo.ProdukHarga Satuan JumlahSubtotal1 Abaya Wafa Anak Tas",
+        "rect": {
+          "width": 872,
+          "height": 613
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.card-header",
+        "tag": "div",
+        "id": null,
+        "className": "card-header",
+        "childCount": 3,
+        "textPreview": "Informasi PembayaranLihat riwayat transaksi",
+        "rect": {
+          "width": 872,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.card-header > div.card-title",
+        "tag": "div",
+        "id": null,
+        "className": "card-title",
+        "childCount": 0,
+        "textPreview": "Informasi Pembayaran",
+        "rect": {
+          "width": 699,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle",
+        "tag": "div",
+        "id": null,
+        "className": "cardStyle",
+        "childCount": 2,
+        "textPreview": "Penyesuaian PesananMohon perhatikan bahwa biaya penyesuaian pesanan dapat berubah meskipun pesanan t",
+        "rect": {
+          "width": 920,
+          "height": 280
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.card-header",
+        "tag": "div",
+        "id": null,
+        "className": "card-header",
+        "childCount": 2,
+        "textPreview": "Penyesuaian PesananMohon perhatikan bahwa biaya penyesuaian pesanan dapat berubah meskipun pesanan t",
+        "rect": {
+          "width": 872,
+          "height": 19
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.card-header > div.card-title",
+        "tag": "div",
+        "id": null,
+        "className": "card-title",
+        "childCount": 1,
+        "textPreview": "Penyesuaian PesananMohon perhatikan bahwa biaya penyesuaian pesanan dapat berubah meskipun pesanan t",
+        "rect": {
+          "width": 840,
+          "height": 19
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle",
+        "tag": "div",
+        "id": null,
+        "className": "cardStyle",
+        "childCount": 1,
+        "textPreview": ".st0{fill-rule:evenodd;clip-rule:evenodd;} Penghasilan Akhir Total pendapatan yang akan kamu dapatka",
+        "rect": {
+          "width": 920,
+          "height": 79
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.card-header",
+        "tag": "div",
+        "id": null,
+        "className": "card-header",
+        "childCount": 3,
+        "textPreview": ".st0{fill-rule:evenodd;clip-rule:evenodd;} Penghasilan Akhir Total pendapatan yang akan kamu dapatka",
+        "rect": {
+          "width": 872,
+          "height": 31
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.remote-component > div.cardStyle > div.card-header > div.card-title",
+        "tag": "div",
+        "id": null,
+        "className": "card-title",
+        "childCount": 1,
+        "textPreview": "Penghasilan Akhir Total pendapatan yang akan kamu dapatkan dari pesanan ini, yaitu jumlah dari Pengh",
+        "rect": {
+          "width": 713,
+          "height": 19
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card card-style",
+        "childCount": 1,
+        "textPreview": "Pembayaran PembeliRp150.400",
+        "rect": {
+          "width": 920,
+          "height": 70
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": "Pembayaran PembeliRp150.400",
+        "rect": {
+          "width": 872,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.buyer-payment.card-style.od-card",
+        "tag": "div",
+        "id": null,
+        "className": "buyer-payment card-style od-card",
+        "childCount": 1,
+        "textPreview": "Pembayaran PembeliRp150.400",
+        "rect": {
+          "width": 872,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.buyer-payment.card-style.od-card > div.brief > div.od-card-header",
+        "tag": "div",
+        "id": null,
+        "className": "od-card-header",
+        "childCount": 1,
+        "textPreview": "Pembayaran Pembeli",
+        "rect": {
+          "width": 184,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-6.od-history > div.eds-card.note",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card note",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 296,
+          "height": 88
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-6.od-history > div.eds-card.note > div.eds-card__content",
+        "tag": "div",
+        "id": null,
+        "className": "eds-card__content",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 248,
+          "height": 40
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card",
+        "tag": "div",
+        "id": null,
+        "className": "card",
+        "childCount": 2,
+        "textPreview": "Analisa KendalaRekam video melalui fitur ini untuk membantu menyelesaikan kendalamu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_img_area.card_diagnose",
+        "tag": "div",
+        "id": null,
+        "className": "card_img_area card_diagnose",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_img_area.card_diagnose > img.card_img",
+        "tag": "img",
+        "id": null,
+        "className": "card_img",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area",
+        "tag": "div",
+        "id": null,
+        "className": "card_area",
+        "childCount": 2,
+        "textPreview": "Analisa KendalaRekam video melalui fitur ini untuk membantu menyelesaikan kendalamu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area > p.card_title",
+        "tag": "p",
+        "id": null,
+        "className": "card_title",
+        "childCount": 0,
+        "textPreview": "Analisa Kendala",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area > p.card_desc",
+        "tag": "p",
+        "id": null,
+        "className": "card_desc",
+        "childCount": 0,
+        "textPreview": "Rekam video melalui fitur ini untuk membantu menyelesaikan kendalamu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card",
+        "tag": "div",
+        "id": null,
+        "className": "card",
+        "childCount": 2,
+        "textPreview": "Laporkan Kendala TeknisCth. gagal login, loading terlalu lama, gangguan sistem",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_img_area",
+        "tag": "div",
+        "id": null,
+        "className": "card_img_area",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_img_area > img.card_img",
+        "tag": "img",
+        "id": null,
+        "className": "card_img",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area",
+        "tag": "div",
+        "id": null,
+        "className": "card_area",
+        "childCount": 2,
+        "textPreview": "Laporkan Kendala TeknisCth. gagal login, loading terlalu lama, gangguan sistem",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area > p.card_title",
+        "tag": "p",
+        "id": null,
+        "className": "card_title",
+        "childCount": 0,
+        "textPreview": "Laporkan Kendala Teknis",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area > p.card_desc",
+        "tag": "p",
+        "id": null,
+        "className": "card_desc",
+        "childCount": 0,
+        "textPreview": "Cth. gagal login, loading terlalu lama, gangguan sistem",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card",
+        "tag": "div",
+        "id": null,
+        "className": "card",
+        "childCount": 2,
+        "textPreview": "Berikan SaranCth. Saran untuk fitur baru",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_img_area",
+        "tag": "div",
+        "id": null,
+        "className": "card_img_area",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_img_area > img.card_img",
+        "tag": "img",
+        "id": null,
+        "className": "card_img",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area",
+        "tag": "div",
+        "id": null,
+        "className": "card_area",
+        "childCount": 2,
+        "textPreview": "Berikan SaranCth. Saran untuk fitur baru",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area > p.card_title",
+        "tag": "p",
+        "id": null,
+        "className": "card_title",
+        "childCount": 0,
+        "textPreview": "Berikan Saran",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area > p.card_desc",
+        "tag": "p",
+        "id": null,
+        "className": "card_desc",
+        "childCount": 0,
+        "textPreview": "Cth. Saran untuk fitur baru",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card",
+        "tag": "div",
+        "id": null,
+        "className": "card",
+        "childCount": 2,
+        "textPreview": "Laporkan PelanggaranCth. Kecurangan yang dilakukan oleh Tim Shopee",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_img_area",
+        "tag": "div",
+        "id": null,
+        "className": "card_img_area",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_img_area > img.card_img",
+        "tag": "img",
+        "id": null,
+        "className": "card_img",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area",
+        "tag": "div",
+        "id": null,
+        "className": "card_area",
+        "childCount": 2,
+        "textPreview": "Laporkan PelanggaranCth. Kecurangan yang dilakukan oleh Tim Shopee",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area > p.card_title",
+        "tag": "p",
+        "id": null,
+        "className": "card_title",
+        "childCount": 0,
+        "textPreview": "Laporkan Pelanggaran",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "div > div > div.feedback-wrapper > div.eds-modal > div.eds-modal__mask > div.eds-modal__container > div.eds-modal__box > div.eds-modal__content.eds-modal__content--normal > div.feedback-modal > div.first > div.card > div.card_area > p.card_desc",
+        "tag": "p",
+        "id": null,
+        "className": "card_desc",
+        "childCount": 0,
+        "textPreview": "Cth. Kecurangan yang dilakukan oleh Tim Shopee",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item breadcrumb-item",
+        "childCount": 2,
+        "textPreview": "BerandaBerandaBeranda",
+        "rect": {
+          "width": 91,
+          "height": 33
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__inner",
+        "childCount": 1,
+        "textPreview": "BerandaBerandaBeranda",
+        "rect": {
+          "width": 59,
+          "height": 33
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover eds-popover--dark eds-tooltip eds-breadcrumb-item__item-text",
+        "childCount": 2,
+        "textPreview": "BerandaBerandaBeranda",
+        "rect": {
+          "width": 59,
+          "height": 29
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.eds-breadcrumb-item__item-text",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__item-text",
+        "childCount": 1,
+        "textPreview": "Beranda",
+        "rect": {
+          "width": 59,
+          "height": 24
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.eds-breadcrumb-item__item-text-phantom",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__item-text-phantom",
+        "childCount": 2,
+        "textPreview": "Beranda",
+        "rect": {
+          "width": 59,
+          "height": 24
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__separator",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__separator",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 16,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item breadcrumb-item",
+        "childCount": 2,
+        "textPreview": "Pesanan SayaPesanan SayaPesanan Saya",
+        "rect": {
+          "width": 132,
+          "height": 33
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__inner",
+        "childCount": 1,
+        "textPreview": "Pesanan SayaPesanan SayaPesanan Saya",
+        "rect": {
+          "width": 100,
+          "height": 33
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover eds-popover--dark eds-tooltip eds-breadcrumb-item__item-text",
+        "childCount": 2,
+        "textPreview": "Pesanan SayaPesanan SayaPesanan Saya",
+        "rect": {
+          "width": 100,
+          "height": 29
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.eds-breadcrumb-item__item-text",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__item-text",
+        "childCount": 1,
+        "textPreview": "Pesanan Saya",
+        "rect": {
+          "width": 100,
+          "height": 24
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.eds-breadcrumb-item__item-text-phantom",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__item-text-phantom",
+        "childCount": 2,
+        "textPreview": "Pesanan Saya",
+        "rect": {
+          "width": 100,
+          "height": 24
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__separator",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__separator",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 16,
+          "height": 22
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item breadcrumb-item",
+        "childCount": 2,
+        "textPreview": "Rincian PesananRincian PesananRincian Pesanan",
+        "rect": {
+          "width": 118,
+          "height": 33
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__inner",
+        "childCount": 1,
+        "textPreview": "Rincian PesananRincian PesananRincian Pesanan",
+        "rect": {
+          "width": 118,
+          "height": 33
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover eds-popover--dark eds-tooltip eds-breadcrumb-item__item-text",
+        "childCount": 2,
+        "textPreview": "Rincian PesananRincian PesananRincian Pesanan",
+        "rect": {
+          "width": 118,
+          "height": 29
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.eds-breadcrumb-item__item-text",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__item-text",
+        "childCount": 1,
+        "textPreview": "Rincian Pesanan",
+        "rect": {
+          "width": 118,
+          "height": 24
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__inner > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.eds-breadcrumb-item__item-text-phantom",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__item-text-phantom",
+        "childCount": 2,
+        "textPreview": "Rincian Pesanan",
+        "rect": {
+          "width": 118,
+          "height": 24
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.content-box > div.eds-breadcrumb.eds-breadcrumb--light.breadcrumb > div.eds-breadcrumb-item.breadcrumb-item > div.eds-breadcrumb-item__separator",
+        "tag": "div",
+        "id": null,
+        "className": "eds-breadcrumb-item__separator",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item",
+        "tag": "div",
+        "id": null,
+        "className": "category-item",
+        "childCount": 2,
+        "textPreview": "Pesanan Saya",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container",
+        "tag": "div",
+        "id": null,
+        "className": "item-container",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container > div.item-icon",
+        "tag": "div",
+        "id": null,
+        "className": "item-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > span.item-name",
+        "tag": "span",
+        "id": null,
+        "className": "item-name",
+        "childCount": 0,
+        "textPreview": "Pesanan Saya",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item",
+        "tag": "div",
+        "id": null,
+        "className": "category-item",
+        "childCount": 2,
+        "textPreview": "Produk Saya",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container",
+        "tag": "div",
+        "id": null,
+        "className": "item-container",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container > div.item-icon",
+        "tag": "div",
+        "id": null,
+        "className": "item-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > span.item-name",
+        "tag": "span",
+        "id": null,
+        "className": "item-name",
+        "childCount": 0,
+        "textPreview": "Produk Saya",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item",
+        "tag": "div",
+        "id": null,
+        "className": "category-item",
+        "childCount": 2,
+        "textPreview": "Pusat Promosi",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container",
+        "tag": "div",
+        "id": null,
+        "className": "item-container",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container > div.item-icon",
+        "tag": "div",
+        "id": null,
+        "className": "item-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > span.item-name",
+        "tag": "span",
+        "id": null,
+        "className": "item-name",
+        "childCount": 0,
+        "textPreview": "Pusat Promosi",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item",
+        "tag": "div",
+        "id": null,
+        "className": "category-item",
+        "childCount": 2,
+        "textPreview": "Saldo Saya",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container",
+        "tag": "div",
+        "id": null,
+        "className": "item-container",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container > div.item-icon",
+        "tag": "div",
+        "id": null,
+        "className": "item-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > span.item-name",
+        "tag": "span",
+        "id": null,
+        "className": "item-name",
+        "childCount": 0,
+        "textPreview": "Saldo Saya",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item",
+        "tag": "div",
+        "id": null,
+        "className": "category-item",
+        "childCount": 2,
+        "textPreview": "Performa Toko",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container",
+        "tag": "div",
+        "id": null,
+        "className": "item-container",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container > div.item-icon",
+        "tag": "div",
+        "id": null,
+        "className": "item-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > span.item-name",
+        "tag": "span",
+        "id": null,
+        "className": "item-name",
+        "childCount": 0,
+        "textPreview": "Performa Toko",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item",
+        "tag": "div",
+        "id": null,
+        "className": "category-item",
+        "childCount": 2,
+        "textPreview": "Pengaturan Toko",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container",
+        "tag": "div",
+        "id": null,
+        "className": "item-container",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container > div.item-icon",
+        "tag": "div",
+        "id": null,
+        "className": "item-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > span.item-name",
+        "tag": "span",
+        "id": null,
+        "className": "item-name",
+        "childCount": 0,
+        "textPreview": "Pengaturan Toko",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item",
+        "tag": "div",
+        "id": null,
+        "className": "category-item",
+        "childCount": 2,
+        "textPreview": "Formulir Feedback",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container",
+        "tag": "div",
+        "id": null,
+        "className": "item-container",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > div.item-container > div.item-icon",
+        "tag": "div",
+        "id": null,
+        "className": "item-icon",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div.header-action > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.category-popover-box > div.category-item > span.item-name",
+        "tag": "span",
+        "id": null,
+        "className": "item-name",
+        "childCount": 0,
+        "textPreview": "Formulir Feedback",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.subaccount-dropdown > div.subaccount-dropdown-body > ul > li.account-dropdown-item",
+        "tag": "li",
+        "id": null,
+        "className": "account-dropdown-item",
+        "childCount": 2,
+        "textPreview": "Profil Toko",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.subaccount-dropdown > div.subaccount-dropdown-body > ul > li.account-dropdown-item",
+        "tag": "li",
+        "id": null,
+        "className": "account-dropdown-item",
+        "childCount": 2,
+        "textPreview": "Pengaturan Toko",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.subaccount-dropdown > div.subaccount-dropdown-body > ul > div.eds-dropdown.lang-option-dropdown > li.account-dropdown-item",
+        "tag": "li",
+        "id": null,
+        "className": "account-dropdown-item",
+        "childCount": 3,
+        "textPreview": "Bahasa Indonesia (Indonesian)",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.subaccount-dropdown > div.subaccount-dropdown-body > ul > div.eds-dropdown.lang-option-dropdown > div.eds-popper > ul.eds-dropdown-menu > li.eds-dropdown-item.selected-lang",
+        "tag": "li",
+        "id": null,
+        "className": "eds-dropdown-item selected-lang",
+        "childCount": 0,
+        "textPreview": "Bahasa Indonesia (Indonesian)",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.subaccount-dropdown > div.subaccount-dropdown-body > ul > div.eds-dropdown.lang-option-dropdown > div.eds-popper > ul.eds-dropdown-menu > li.eds-dropdown-item",
+        "tag": "li",
+        "id": null,
+        "className": "eds-dropdown-item",
+        "childCount": 0,
+        "textPreview": "English",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.header-bar.shopee-header-bar > div.header-content > div > div.eds-popover.eds-popover--light > div.eds-popper.eds-popover__popper.eds-popover__popper--light > div.eds-popover__content > div.subaccount-dropdown > div.subaccount-dropdown-body > ul > li.account-dropdown-item",
+        "tag": "li",
+        "id": null,
+        "className": "account-dropdown-item",
+        "childCount": 2,
+        "textPreview": "Logout",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.section > div.body > div.detail.indent-more > div.package-log > div.log-info > div.logistic-history-log > div.indent-more > div.image-container > div.image-combine > div.image.image-item-1",
+        "tag": "div",
+        "id": null,
+        "className": "image image-item-1",
+        "childCount": 0,
+        "textPreview": null,
+        "rect": {
+          "width": 45,
+          "height": 45
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.user-view-item.linkable",
+        "tag": "div",
+        "id": null,
+        "className": "user-view-item linkable",
+        "childCount": 3,
+        "textPreview": "bundanyaaini530Ikuti Chat Sekarang",
+        "rect": {
+          "width": 872,
+          "height": 44
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.product-list > div.product-list-item.product-list-head",
+        "tag": "div",
+        "id": null,
+        "className": "product-list-item product-list-head",
+        "childCount": 5,
+        "textPreview": "No.ProdukHarga Satuan JumlahSubtotal",
+        "rect": {
+          "width": 871,
+          "height": 43
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.product-list > div > div.product-list-item",
+        "tag": "div",
+        "id": null,
+        "className": "product-list-item",
+        "childCount": 5,
+        "textPreview": "1 Abaya Wafa Anak Tasel Terbaru / Abaya Capel Ibu Anak 3-15 TahunDiasuransikanVariasi: burgundy,XL (",
+        "rect": {
+          "width": 839,
+          "height": 111
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.product-list > div > div.product-list-item > div.product-item.product",
+        "tag": "div",
+        "id": null,
+        "className": "product-item product",
+        "childCount": 2,
+        "textPreview": "Abaya Wafa Anak Tasel Terbaru / Abaya Capel Ibu Anak 3-15 TahunDiasuransikanVariasi: burgundy,XL (12",
+        "rect": {
+          "width": 534,
+          "height": 91
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-item.income-subtotal.strong",
+        "tag": "div",
+        "id": null,
+        "className": "income-item income-subtotal strong",
+        "childCount": 3,
+        "textPreview": "Subtotal Pesanan  Rp190.000",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item",
+        "tag": "div",
+        "id": null,
+        "className": "income-item",
+        "childCount": 3,
+        "textPreview": "Harga Produk  Rp190.000",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-item.income-subtotal.strong",
+        "tag": "div",
+        "id": null,
+        "className": "income-item income-subtotal strong",
+        "childCount": 3,
+        "textPreview": "Subtotal Ongkos Kirim  Rp0",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item",
+        "tag": "div",
+        "id": null,
+        "className": "income-item",
+        "childCount": 3,
+        "textPreview": "Ongkir Dibayar Pembeli  Rp0",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item",
+        "tag": "div",
+        "id": null,
+        "className": "income-item",
+        "childCount": 3,
+        "textPreview": "Ongkos Kirim yang Dibayarkan ke Jasa Kirim  -Rp5.000",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item",
+        "tag": "div",
+        "id": null,
+        "className": "income-item",
+        "childCount": 3,
+        "textPreview": "Potongan Ongkos Kirim dari Shopee  Rp5.000",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-item.income-subtotal.strong",
+        "tag": "div",
+        "id": null,
+        "className": "income-item income-subtotal strong",
+        "childCount": 3,
+        "textPreview": "Biaya Lainnya  -Rp26.425",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item",
+        "tag": "div",
+        "id": null,
+        "className": "income-item",
+        "childCount": 3,
+        "textPreview": "Biaya Administrasi .cls-1{fill-rule:evenodd;}questionShopee mengenakan biaya administrasi 8.25% dari",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item",
+        "tag": "div",
+        "id": null,
+        "className": "income-item",
+        "childCount": 3,
+        "textPreview": "Premi  -Rp950",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item",
+        "tag": "div",
+        "id": null,
+        "className": "income-item",
+        "childCount": 3,
+        "textPreview": "Biaya Layanan .cls-1{fill-rule:evenodd;}questionBiaya Layanan Promo XTRA-Rp8.550Pelajari kategori bi",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-group > div.income-item",
+        "tag": "div",
+        "id": null,
+        "className": "income-item",
+        "childCount": 3,
+        "textPreview": "Biaya Proses Pesanan .cls-1{fill-rule:evenodd;}questionBiaya Proses Pesanan adalah biaya yang dikena",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.app-container > div.page-container.static-container.has-sidebar-panel > div.page-content-wrapper.static-content-wrapper > div.eds-row > div.eds-col.eds-col-24.page-wrapper > div.portal-root-container > div.order-detail.container > div.eds-row.with-gap > div.eds-col.eds-col-18 > div.eds-card.card-style > div.eds-card__content > div.remote-component > div > div.product-payment-wrapper > div.payment-info-details > div.income-container > div.income-item.income-subtotal.strong",
+        "tag": "div",
+        "id": null,
+        "className": "income-item income-subtotal strong highlighted",
+        "childCount": 3,
+        "textPreview": "Total Penghasilan .cls-1{fill-rule:evenodd;}questionPendapatan sebenarnya akan ditentukan setelah pe",
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style",
+        "tag": "div",
+        "id": null,
+        "className": "panel-item-container shopee-cs-chat-scope-style platform-remote-component-scoped-style shopee-chat-scope-style",
+        "childCount": 3,
+        "textPreview": "Hubungi Asisten PenjualHubungi Shopee11NotifikasiChat",
+        "rect": {
+          "width": 48,
+          "height": 607
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover eds-popover--dark eds-tooltip panel-item-tooltip",
+        "childCount": 2,
+        "textPreview": "Hubungi Asisten PenjualHubungi Shopee",
+        "rect": {
+          "width": 48,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.panel-item",
+        "tag": "div",
+        "id": null,
+        "className": "panel-item",
+        "childCount": 1,
+        "textPreview": "Hubungi Asisten Penjual",
+        "rect": {
+          "width": 48,
+          "height": 48
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover eds-popover--dark eds-tooltip panel-item-tooltip",
+        "childCount": 2,
+        "textPreview": "11Notifikasi",
+        "rect": {
+          "width": 48,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.panel-item",
+        "tag": "div",
+        "id": null,
+        "className": "panel-item",
+        "childCount": 1,
+        "textPreview": "11",
+        "rect": {
+          "width": 48,
+          "height": 48
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip",
+        "tag": "div",
+        "id": null,
+        "className": "eds-popover eds-popover--dark eds-tooltip panel-item-tooltip",
+        "childCount": 2,
+        "textPreview": "Chat",
+        "rect": {
+          "width": 48,
+          "height": 56
+        }
+      },
+      {
+        "selector": "#app > div > div.sidebar-panel > div.panel-item-container.shopee-cs-chat-scope-style.platform-remote-component-scoped-style > div.eds-popover.eds-popover--dark.eds-tooltip > div.eds-popover__ref > div.panel-item",
+        "tag": "div",
+        "id": null,
+        "className": "panel-item",
+        "childCount": 1,
+        "textPreview": null,
+        "rect": {
+          "width": 48,
+          "height": 48
+        }
+      }
+    ]
+  }
+}

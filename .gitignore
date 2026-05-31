@@ -1,0 +1,111 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+out
+build
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+*.log.*
+logs/
+docs/*.log
+
+# Cache
+.eslintcache
+.cache
+.temp
+.tmp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Electron
+electron-v*.zip
+*.asar
+
+# Package manager
+.pnpm-debug.log*
+.yarn/
+.npm/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# User data (sensitive)
+*.backup.json
+kiro-accounts.json
+
+# Kiro development artifacts
+.kiro/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store?
+
+# Project specific
+kiro_auto_manager-master/
+.trae/
+
+# GSuite accounts and their use-state — NEVER commit
+accounts/*.txt
+accounts/*.state.json
+accounts/*.json
+!accounts/gsuite.example.txt
+!accounts/vcc.example.json
+
+# Registration output
+show/results.json
+show/builderid-template.json
+show/switch-state.json
+show/upgrade-results.json
+show/upgrade-state.json
+show/diagnostics/
+show/sessions/
+show/*.bak.*
+
+# BIN tool runtime artifacts
+show/bin-cache.json
+accounts/bin-database.json
+accounts/bin-database.csv
+
+# Playwright MCP runtime state
+.playwright-mcp/
+
+# Local reference screenshots
+opus-memasak-*.png
+cookies-button.png
+
+# Local debug / tmp scratch files
+error-register.txt
+log-error-upgrade-button.txt
+*.tmp-*.js
+EngganNgoding*.tmp-*.js
+AGENTS.md

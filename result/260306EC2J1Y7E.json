@@ -1,0 +1,77 @@
+{
+  "pathId": "226494007287022",
+  "orderSn": "260306EC2J1Y7E",
+  "detailUrl": "https://seller.shopee.co.id/portal/sale/order/226494007287022",
+  "status": "Pesanan tiba di alamat tujuan. diterima oleh Yang bersangkutan.",
+  "shippingAddress": {
+    "buyerContact": "A**a, ******05",
+    "address": "******Kolaka, Laloeha, Kolaka, KAB. KOLAKA, KOLAKA, SULAWESI TENGGARA, ID, 93511"
+  },
+  "shipping": {
+    "packageLabel": "Paket 1:",
+    "carrier": "Reguler (Cashless)",
+    "actualCarrier": "SPX Standard",
+    "trackingNumber": "# SPXID068051240963"
+  },
+  "products": [
+    {
+      "index": "1",
+      "name": "WAFA ABAYA CANTIK MODEL TERBARU COCOK BUAT LEBARAN TREND ANTI UV GAMIS RUMBAY",
+      "variation": "Variasi: Mahogany,LKode Variasi: WAFA",
+      "price": "256.000",
+      "qty": "1",
+      "subtotal": "256.000"
+    }
+  ],
+  "paymentBreakdown": [
+    {
+      "label": "Subtotal Pesanan",
+      "amount": "Rp256.000"
+    },
+    {
+      "label": "Harga Produk",
+      "amount": "Rp256.000"
+    },
+    {
+      "label": "Subtotal Ongkos Kirim",
+      "amount": "Rp0"
+    },
+    {
+      "label": "Ongkir Dibayar Pembeli",
+      "amount": "Rp0"
+    },
+    {
+      "label": "Ongkos Kirim yang Dibayarkan ke Jasa Kirim",
+      "amount": "-Rp74.500"
+    },
+    {
+      "label": "Potongan Ongkos Kirim dari Shopee",
+      "amount": "Rp74.500"
+    },
+    {
+      "label": "Biaya Lainnya",
+      "amount": "-Rp33.920"
+    },
+    {
+      "label": "Biaya Administrasi",
+      "amount": "-Rp21.120"
+    },
+    {
+      "label": "Premi",
+      "amount": "-Rp1.280"
+    },
+    {
+      "label": "Biaya Layanan",
+      "amount": "-Rp11.520"
+    },
+    {
+      "label": "Total Penghasilan",
+      "amount": "Rp222.080"
+    }
+  ],
+  "total": {
+    "label": "Total Penghasilan",
+    "amount": "Rp222.080"
+  },
+  "scrapedAt": 1780239414973
+}

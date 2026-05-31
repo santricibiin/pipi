@@ -1,0 +1,11 @@
+# GSuite accounts for Kiro registration via Google OAuth.
+# One account per line, format:  email:password
+# Lines starting with # or // are ignored. Blank lines are ignored.
+# Duplicates (same email) are deduped — first occurrence wins.
+#
+# Example:
+#   firstname.lastname@yourdomain.com:SuperSecret123
+#   alt.user@yourdomain.com:AnotherPass456
+#
+# Use-state is tracked in accounts/gsuite.state.json — the runner skips
+# accounts already marked success / failed. Delete the state file to retry.
