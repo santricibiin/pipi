@@ -82,6 +82,12 @@ export type ScrapeOrdersOptions = {
   orderType?: string
   /** Cap how many orders to scrape (for testing). 0 / undefined = all. */
   limit?: number
+  /**
+   * Cap how many index pages (40 orders/page) to fetch. 0 / undefined = all
+   * pages. E.g. 2 → only the first 2 pages (≤80 orders). Applied BEFORE
+   * `limit`.
+   */
+  maxPages?: number
   /** Output directory for the per-order JSON files. Defaults to `result/`. */
   outDir?: string
   /** Delay (ms) between visiting each order detail, to be gentle. Default 0. */

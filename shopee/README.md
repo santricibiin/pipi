@@ -1,3 +1,6 @@
+#DEPLOY DI VPS 
+DOMAIN=jagopay.biz.id EMAIL=kamu@gmail.com bash deploy.sh
+
 # Shopee Auto-Login
 
 Auto-login ke Shopee Seller Center pakai cookie injection + engine **camoufox** (Firefox anti-fingerprint). Tidak mengetik password — login murni dari cookie yang sudah ada.

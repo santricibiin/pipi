@@ -109,3 +109,11 @@ log-error-upgrade-button.txt
 *.tmp-*.js
 EngganNgoding*.tmp-*.js
 AGENTS.md
+
+# Shopee scraper — sensitive runtime data (NEVER commit)
+shopee/sessions/          # saved auth cookies / storageState
+result/                   # scraped orders (buyer names, addresses, PII)
+api-capture*.json         # raw API captures (cookies + PII)
+api-captures-order.json   # raw API captures (cookies + PII)
+referensiDOM/api-capture.json
+.web-token                # auto-generated web UI token
